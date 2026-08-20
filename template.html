@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8" />
+<title>Pliegos del Poder Judicial en trámite — Senado</title>
+<style>
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT400__) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT600__) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT700__) format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --accent: #005ca9;
+  --accent-deep: #1555a3;
+  --accent-pale: #d6eefb;
+  --accent-light: #86d1f5;
+  --ink: #1b2733;
+  --ink-soft: #575756;
+  --line: #d8dadb;
+  --line-soft: #e9ebec;
+  --surface: #ffffff;
+  --surface-alt: #f4f8fb;
+  --surface-raised: #ffffff;
+  --shadow: 0 1px 2px rgba(20, 40, 60, 0.06), 0 8px 24px -12px rgba(20, 40, 60, 0.18);
+
+  --state-pendiente: #b7791f;
+  --state-pendiente-bg: #fbf1de;
+  --state-comision: #64748b;
+  --state-comision-bg: #eef1f4;
+  --state-od: #6d4fa8;
+  --state-od-bg: #ede7f6;
+  --state-sancion: #1e7f4f;
+  --state-sancion-bg: #e2f3ea;
+  --badge-live: #c1440e;
+  --badge-live-bg: #fdece2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e8edf2;
+    --ink-soft: #a9b3bc;
+    --line: #33404b;
+    --line-soft: #29343e;
+    --surface: #121a22;
+    --surface-alt: #17212b;
+    --surface-raised: #1b2530;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+    --accent-pale: #14344a;
+    --accent-light: #3d87b8;
+
+    --state-pendiente: #e0ab52;
+    --state-pendiente-bg: #3a2f14;
+    --state-comision: #9aa7b3;
+    --state-comision-bg: #232c34;
+    --state-od: #b39ce0;
+    --state-od-bg: #2a2140;
+    --state-sancion: #5fcd93;
+    --state-sancion-bg: #123423;
+    --badge-live: #ff9466;
+    --badge-live-bg: #3a1c10;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #e8edf2;
+  --ink-soft: #a9b3bc;
+  --line: #33404b;
+  --line-soft: #29343e;
+  --surface: #121a22;
+  --surface-alt: #17212b;
+  --surface-raised: #1b2530;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+  --accent-pale: #14344a;
+  --accent-light: #3d87b8;
+
+  --state-pendiente: #e0ab52;
+  --state-pendiente-bg: #3a2f14;
+  --state-comision: #9aa7b3;
+  --state-comision-bg: #232c34;
+  --state-od: #b39ce0;
+  --state-od-bg: #2a2140;
+  --state-sancion: #5fcd93;
+  --state-sancion-bg: #123423;
+  --badge-live: #ff9466;
+  --badge-live-bg: #3a1c10;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+  min-height: 100vh;
+}
+a { color: inherit; }
+button, select, input { font-family: inherit; }
+
+.topbar {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+  color: #fff;
+  padding: 22px clamp(16px, 4vw, 40px);
+}
+.topbar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.85;
+  margin: 0 0 6px;
+}
+.topbar h1 {
+  margin: 0;
+  font-size: clamp(20px, 2.6vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.topbar .meta {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+.topbar .stat {
+  text-align: right;
+}
+.topbar .stat .n {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+.topbar .stat .l {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.controls {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px clamp(16px, 4vw, 40px) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2px;
+}
+.tab {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 9px 14px 11px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  top: 1px;
+}
+.tab .count {
+  background: var(--surface-alt);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] {
+  color: var(--accent-deep);
+  border-bottom: 2px solid var(--accent-deep);
+}
+.tab[aria-selected="true"] .count {
+  background: var(--accent-pale);
+  color: var(--accent-deep);
+}
+
+.filter-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.search-wrap {
+  position: relative;
+  flex: 1 1 260px;
+  min-width: 200px;
+}
+.search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); opacity: 0.5; }
+input[type="search"] {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+}
+input[type="search"]:focus, select:focus, .toggle:focus-within { outline: 2px solid var(--accent-light); outline-offset: 1px; }
+select {
+  padding: 10px 32px 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path d="M0 0l5 6 5-6z" fill="%23575756"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+  user-select: none;
+}
+.toggle input { position: absolute; opacity: 0; width: 0; height: 0; }
+.switch {
+  width: 34px; height: 20px; border-radius: 999px; background: var(--line);
+  position: relative; flex: none; transition: background 0.15s;
+}
+.switch::after {
+  content: ""; position: absolute; width: 16px; height: 16px; border-radius: 50%;
+  background: #fff; top: 2px; left: 2px; transition: left 0.15s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.toggle input:checked + .switch { background: var(--badge-live); }
+.toggle input:checked + .switch::after { left: 16px; }
+
+.btn-clear {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+}
+.btn-clear:hover { color: var(--ink); background: var(--surface); border-color: var(--line); }
+.btn-clear:disabled { opacity: 0.4; cursor: default; background: none; border-color: transparent; color: var(--ink-soft); }
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px clamp(16px, 4vw, 40px) 60px;
+}
+
+.result-count {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin: 4px 0 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+  font-size: 14px;
+  color: var(--ink);
+}
+.card:hover { transform: translateY(-2px); border-color: var(--accent-light); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.expediente {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--accent-deep);
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill.pendiente { color: var(--state-pendiente); background: var(--state-pendiente-bg); }
+.pill.comision { color: var(--state-comision); background: var(--state-comision-bg); }
+.pill.od { color: var(--state-od); background: var(--state-od-bg); }
+.pill.sancion { color: var(--state-sancion); background: var(--state-sancion-bg); }
+
+.candidato {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+.cargo {
+  color: var(--ink-soft);
+  font-size: 12.5px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: auto;
+}
+.provincia-tag {
+  font-size: 12px;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.badge-audiencia {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--badge-live);
+  background: var(--badge-live-bg);
+  padding: 4px 9px;
+  border-radius: 999px;
+}
+.badge-audiencia .dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--badge-live);
+  animation: pulse 1.6s infinite;
+}
+@media (prefers-reduced-motion: reduce) { .badge-audiencia .dot { animation: none; } }
+.badge-audiencia.sin-dictamen {
+  color: var(--state-sancion);
+  background: var(--state-sancion-bg);
+}
+.badge-audiencia.sin-dictamen .dot { background: var(--state-sancion); animation: none; }
+@keyframes pulse {
+  0%, 100% { opacity: 1; } 50% { opacity: 0.35; }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-soft);
+}
+.empty-state svg { opacity: 0.5; margin-bottom: 12px; }
+
+.excluidos-note {
+  margin-top: 34px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px dashed var(--line);
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+.excluidos-note summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+.excluidos-note ul { margin: 10px 0 0; padding-left: 18px; }
+.excluidos-note li { margin-bottom: 4px; }
+
+/* Estadísticas */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+}
+.stat-card .stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.stat-card .stat-value small {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.stat-card .stat-label {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  font-weight: 600;
+}
+.stat-card.accent-pendiente .stat-value { color: var(--state-pendiente); }
+.stat-card.accent-comision .stat-value { color: var(--state-comision); }
+.stat-card.accent-od .stat-value { color: var(--state-od); }
+.stat-card.accent-sancion .stat-value { color: var(--state-sancion); }
+.stat-card.accent-live .stat-value { color: var(--badge-live); }
+
+.stats-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin: 0 0 12px;
+}
+.province-bars {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.province-bar-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 40px;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.province-bar-name {
+  color: var(--ink);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.province-bar-track {
+  background: var(--surface-alt);
+  border-radius: 999px;
+  height: 10px;
+  overflow: hidden;
+}
+.province-bar-fill {
+  background: linear-gradient(90deg, var(--accent-light), var(--accent));
+  height: 100%;
+  border-radius: 999px;
+}
+.province-bar-count {
+  text-align: right;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(15, 23, 30, 0.55);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 5vh 16px; overflow-y: auto;
+  opacity: 0; pointer-events: none; transition: opacity 0.15s ease;
+  z-index: 50;
+}
+.modal-overlay.open { opacity: 1; pointer-events: auto; }
+.modal {
+  background: var(--surface-raised);
+  border-radius: 16px;
+  max-width: 560px;
+  width: 100%;
+  box-shadow: 0 24px 64px -12px rgba(0,0,0,0.4);
+  transform: translateY(8px);
+  transition: transform 0.15s ease;
+}
+.modal-overlay.open .modal { transform: translateY(0); }
+.modal-head {
+  padding: 20px 22px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.modal-head .expediente { font-size: 14px; }
+.modal-head h2 {
+  margin: 6px 0 4px;
+  font-size: 19px;
+  font-weight: 700;
+  text-wrap: balance;
+}
+.modal-head .cargo-full {
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+.modal-close {
+  border: none; background: var(--surface-alt); color: var(--ink-soft);
+  width: 30px; height: 30px; border-radius: 50%; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; flex: none;
+  font-size: 16px;
+}
+.modal-close:hover { background: var(--line-soft); color: var(--ink); }
+
+.modal-body { padding: 18px 22px 22px; }
+
+.modal-badge-audiencia {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--badge-live-bg);
+  color: var(--badge-live);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.timeline li {
+  position: relative;
+  padding: 0 0 20px 26px;
+  border-left: 2px solid var(--line);
+  margin-left: 6px;
+}
+.timeline li:last-child { border-left-color: transparent; padding-bottom: 0; }
+.timeline li::before {
+  content: "";
+  position: absolute; left: -7px; top: 1px;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--surface); border: 2px solid var(--line);
+}
+.timeline li.done::before { background: var(--accent); border-color: var(--accent); }
+.timeline li.active::before { background: var(--badge-live); border-color: var(--badge-live); }
+.timeline .step-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+.timeline li.done .step-label { color: var(--accent-deep); }
+.timeline .step-value {
+  font-size: 14px;
+  margin-top: 2px;
+}
+.timeline .step-value.muted { color: var(--ink-soft); font-weight: 400; }
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.btn-primary {
+  flex: 1;
+  text-align: center;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-primary:hover { background: var(--accent-deep); }
+
+footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 40px) 40px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div>
+      <p class="eyebrow">Senado de la Nación · Comisión de Acuerdos</p>
+      <h1>Pliegos del Poder Judicial en trámite</h1>
+      <p class="meta" id="generado-al"></p>
+    </div>
+    <div class="stat">
+      <div class="n" id="stat-total">0</div>
+      <div class="l">pliegos</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="tabs" id="tabs" role="tablist" aria-label="Categoría"></div>
+  <div class="filter-row">
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" id="search" placeholder="Buscar por nombre, cargo o expediente…" aria-label="Buscar" />
+    </div>
+    <select id="provincia-select" aria-label="Filtrar por provincia">
+      <option value="">Todas las provincias</option>
+    </select>
+    <label class="toggle">
+      <input type="checkbox" id="toggle-programada" />
+      <span class="switch" aria-hidden="true"></span>
+      Solo con audiencia programada
+    </label>
+    <button class="btn-clear" id="btn-clear-filters" type="button">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      Limpiar filtros
+    </button>
+  </div>
+</div>
+
+<main>
+  <p class="result-count" id="result-count"></p>
+  <div class="grid" id="grid"></div>
+  <div class="empty-state" id="empty-state" style="display:none;">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <p>No hay pliegos que coincidan con estos filtros.</p>
+  </div>
+  <div id="stats-panel" style="display:none;"></div>
+</main>
+
+<footer>
+  Fuente: planilla de Acuerdos del Senado (TIPO = AC), ayuda-memoria de Prosecretaría Parlamentaria, actas de audiencias públicas y boletín de reuniones de comisiones. Generado con <code>data_builder.py</code>.
+</footer>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-head">
+      <div>
+        <div class="expediente" id="modal-expediente"></div>
+        <h2 id="modal-title"></h2>
+        <div class="cargo-full" id="modal-cargo"></div>
+      </div>
+      <button class="modal-close" id="modal-close" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-badge-audiencia" id="modal-audiencia-badge" style="display:none;"></div>
+      <ul class="timeline" id="modal-timeline"></ul>
+      <div class="modal-actions">
+        <a class="btn-primary" id="modal-link" href="#" target="_blank" rel="noopener">
+          Ver expediente en el Senado
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="pliegos-data" type="application/json">__DATA_JSON__</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("pliegos-data").textContent);
+  var pliegos = DATA.pliegos;
+
+  var CATEGORIES = [
+    { key: "todos", label: "Todos" },
+    { key: "dar_cuenta", label: "Para dar cuenta" },
+    { key: "sin_audiencia", label: "En comisión" },
+    { key: "con_od", label: "Con Orden del Día" },
+    { key: "sancionado", label: "Sancionado" },
+    { key: "stats", label: "📊 Estadísticas", noCount: true }
+  ];
+  var PILL_META = {
+    dar_cuenta: { cls: "pendiente", label: "Para dar cuenta" },
+    sin_audiencia: { cls: "comision", label: "En comisión" },
+    con_od: { cls: "od", label: "Con Orden del Día" },
+    sancionado: { cls: "sancion", label: "Sancionado" }
+  };
+
+  var state = { categoria: "todos", provincia: "", q: "", soloProgramada: false };
+
+  var elTabs = document.getElementById("tabs");
+  var elGrid = document.getElementById("grid");
+  var elEmpty = document.getElementById("empty-state");
+  var elResultCount = document.getElementById("result-count");
+  var elSearch = document.getElementById("search");
+  var elProvinciaSelect = document.getElementById("provincia-select");
+  var elToggleProgramada = document.getElementById("toggle-programada");
+  var elStatTotal = document.getElementById("stat-total");
+  var elGeneradoAl = document.getElementById("generado-al");
+  var elStatsPanel = document.getElementById("stats-panel");
+  var elBtnClearFilters = document.getElementById("btn-clear-filters");
+
+  elStatTotal.textContent = DATA.total;
+  if (DATA.generado_al) {
+    elGeneradoAl.textContent = "Datos al " + formatFecha(DATA.generado_al, true);
+  }
+
+  DATA.provincias.forEach(function (p) {
+    var opt = document.createElement("option");
+    opt.value = p;
+    opt.textContent = p;
+    elProvinciaSelect.appendChild(opt);
+  });
+
+  function formatFecha(iso, longForm) {
+    var parts = iso.split("-");
+    if (parts.length !== 3) return iso;
+    var d = new Date(Date.UTC(+parts[0], +parts[1] - 1, +parts[2]));
+    var meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+    return d.getUTCDate() + " de " + meses[d.getUTCMonth()] + " de " + d.getUTCFullYear();
+  }
+
+  function counts() {
+    var c = { todos: pliegos.length, dar_cuenta: 0, sin_audiencia: 0, con_od: 0, sancionado: 0 };
+    pliegos.forEach(function (p) { c[p.categoria]++; });
+    return c;
+  }
+
+  function renderTabs() {
+    var c = counts();
+    elTabs.innerHTML = "";
+    CATEGORIES.forEach(function (cat) {
+      var btn = document.createElement("button");
+      btn.className = "tab";
+      btn.setAttribute("role", "tab");
+      btn.setAttribute("aria-selected", state.categoria === cat.key ? "true" : "false");
+      btn.innerHTML = cat.label + (cat.noCount ? "" : ' <span class="count">' + c[cat.key] + "</span>");
+      btn.addEventListener("click", function () {
+        state.categoria = cat.key;
+        renderTabs();
+        renderView();
+      });
+      elTabs.appendChild(btn);
+    });
+  }
+
+  function renderView() {
+    var isStats = state.categoria === "stats";
+    document.querySelector(".filter-row").style.display = isStats ? "none" : "flex";
+    elResultCount.style.display = isStats ? "none" : "block";
+    elGrid.style.display = isStats ? "none" : "grid";
+    elStatsPanel.style.display = isStats ? "block" : "none";
+    if (isStats) {
+      elEmpty.style.display = "none";
+      renderStats();
+    } else {
+      renderGrid();
+    }
+  }
+
+  function matches(p) {
+    if (state.categoria !== "todos" && p.categoria !== state.categoria) return false;
+    if (state.provincia && p.provincia !== state.provincia) return false;
+    if (state.soloProgramada && !p.audiencia_programada) return false;
+    if (state.q) {
+      var haystack = (p.candidato + " " + p.cargo + " " + p.expediente + " " + p.provincia).toLowerCase();
+      if (haystack.indexOf(state.q) === -1) return false;
+    }
+    return true;
+  }
+
+  function cardHTML(p) {
+    var meta = PILL_META[p.categoria];
+    var badge = "";
+    if (p.audiencia_programada) {
+      var ap = p.audiencia_programada;
+      badge = '<span class="badge-audiencia"><span class="dot"></span>Audiencia ' + ap.fecha + ' · ' + ap.hora + 'h · Salón ' + escapeHTML(ap.salon) + '</span>';
+    } else if (p.audiencia_sin_dictamen) {
+      badge = '<span class="badge-audiencia sin-dictamen"><span class="dot"></span>Audiencia realizada, dictamen pendiente</span>';
+    }
+    return (
+      '<button class="card" data-expediente="' + p.expediente + '">' +
+        '<div class="card-top">' +
+          '<span class="expediente">' + p.expediente + '</span>' +
+          '<span class="pill ' + meta.cls + '">' + meta.label + '</span>' +
+        '</div>' +
+        '<div>' +
+          '<div class="candidato">' + escapeHTML(p.candidato) + '</div>' +
+          '<div class="cargo">' + escapeHTML(p.cargo) + '</div>' +
+        '</div>' +
+        '<div class="card-bottom">' +
+          '<span class="provincia-tag">' + escapeHTML(p.provincia) + '</span>' +
+        '</div>' +
+        (badge ? '<div>' + badge + '</div>' : '') +
+      '</button>'
+    );
+  }
+
+  function escapeHTML(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  var currentList = [];
+
+  function renderGrid() {
+    currentList = pliegos.filter(matches);
+    elResultCount.textContent = currentList.length + (currentList.length === 1 ? " pliego encontrado" : " pliegos encontrados");
+    if (currentList.length === 0) {
+      elGrid.innerHTML = "";
+      elEmpty.style.display = "block";
+      return;
+    }
+    elEmpty.style.display = "none";
+    elGrid.innerHTML = currentList.map(cardHTML).join("");
+    Array.prototype.forEach.call(elGrid.querySelectorAll(".card"), function (card) {
+      card.addEventListener("click", function () {
+        openModal(card.getAttribute("data-expediente"));
+      });
+    });
+  }
+
+  // --- Estadísticas ---
+  function diffDias(desde, hasta) {
+    var pd = desde.split("/"), ph = hasta.split("/");
+    var d1 = Date.UTC(+pd[2], +pd[1] - 1, +pd[0]);
+    var d2 = Date.UTC(+ph[2], +ph[1] - 1, +ph[0]);
+    return Math.round((d2 - d1) / 86400000);
+  }
+
+  function renderStats() {
+    var c = counts();
+    var total = c.todos || 1;
+    var pctSancion = Math.round((c.sancionado / total) * 100);
+
+    var conProgramada = pliegos.filter(function (p) { return p.audiencia_programada; }).length;
+
+    var porProvincia = {};
+    pliegos.forEach(function (p) {
+      porProvincia[p.provincia] = (porProvincia[p.provincia] || 0) + 1;
+    });
+    var provinciasOrdenadas = Object.keys(porProvincia)
+      .map(function (nombre) { return { nombre: nombre, n: porProvincia[nombre] }; })
+      .sort(function (a, b) { return b.n - a.n; });
+    var maxProvincia = provinciasOrdenadas.length ? provinciasOrdenadas[0].n : 1;
+
+    var duraciones = [];
+    pliegos.forEach(function (p) {
+      var t = p.timeline;
+      if (t.ingreso && t.sancion) duraciones.push(diffDias(t.ingreso, t.sancion));
+    });
+    var duracionPromedio = duraciones.length
+      ? Math.round(duraciones.reduce(function (a, b) { return a + b; }, 0) / duraciones.length)
+      : null;
+
+    var cards = [
+      { value: total, label: "Total de pliegos judiciales", cls: "" },
+      { value: c.sancionado, small: pctSancion + "%", label: "Sancionados (aprobados)", cls: "accent-sancion" },
+      { value: c.dar_cuenta, label: "Para dar cuenta en el recinto", cls: "accent-pendiente" },
+      { value: c.con_od, label: "Con Orden del Día emitido", cls: "accent-od" },
+      { value: c.sin_audiencia, label: "En comisión, sin audiencia", cls: "accent-comision" },
+      { value: conProgramada, label: "Con audiencia pública programada", cls: "accent-live" },
+      { value: provinciasOrdenadas.length, label: "Provincias representadas", cls: "" }
+    ];
+    if (duracionPromedio !== null) {
+      cards.push({ value: duracionPromedio, small: "días", label: "Trámite promedio: ingreso → sanción", cls: "" });
+    }
+
+    var cardsHTML = cards.map(function (s) {
+      return (
+        '<div class="stat-card ' + s.cls + '">' +
+          '<div class="stat-value">' + s.value + (s.small ? ' <small>' + s.small + '</small>' : '') + '</div>' +
+          '<div class="stat-label">' + s.label + '</div>' +
+        '</div>'
+      );
+    }).join("");
+
+    var barsHTML = provinciasOrdenadas.map(function (p) {
+      var pct = Math.round((p.n / maxProvincia) * 100);
+      return (
+        '<div class="province-bar-row">' +
+          '<div class="province-bar-name">' + escapeHTML(p.nombre) + '</div>' +
+          '<div class="province-bar-track"><div class="province-bar-fill" style="width:' + pct + '%"></div></div>' +
+          '<div class="province-bar-count">' + p.n + '</div>' +
+        '</div>'
+      );
+    }).join("");
+
+    elStatsPanel.innerHTML =
+      '<div class="stats-grid">' + cardsHTML + '</div>' +
+      '<p class="stats-section-title">Pliegos por provincia</p>' +
+      '<div class="province-bars">' + barsHTML + '</div>';
+  }
+
+  // --- Modal ---
+  var elModalOverlay = document.getElementById("modal-overlay");
+  var elModalExpediente = document.getElementById("modal-expediente");
+  var elModalTitle = document.getElementById("modal-title");
+  var elModalCargo = document.getElementById("modal-cargo");
+  var elModalBadge = document.getElementById("modal-audiencia-badge");
+  var elModalTimeline = document.getElementById("modal-timeline");
+  var elModalLink = document.getElementById("modal-link");
+  var elModalClose = document.getElementById("modal-close");
+
+  function timelineHTML(p) {
+    var t = p.timeline;
+    var steps = [];
+
+    steps.push({
+      label: "Ingreso a la comisión",
+      value: t.ingreso ? formatFechaDDMMAAAA(t.ingreso) : "Sin registrar",
+      done: !!t.ingreso
+    });
+
+    var dc = t.dado_cuenta;
+    steps.push({
+      label: "Dado cuenta en el recinto",
+      value: dc && dc.fecha ? formatFechaDDMMAAAA(dc.fecha) + (dc.sesion ? " · sesión " + dc.sesion : "") : "Pendiente",
+      done: !!(dc && dc.fecha)
+    });
+
+    steps.push({
+      label: "Audiencia pública",
+      value: t.audiencia ? formatFechaDDMMAAAA(t.audiencia) : "Sin realizar",
+      done: !!t.audiencia
+    });
+
+    steps.push({
+      label: "Orden del Día",
+      value: t.orden_del_dia ? "N° " + t.orden_del_dia.numero + "/" + t.orden_del_dia.anio : "Sin emitir",
+      done: !!t.orden_del_dia
+    });
+
+    steps.push({
+      label: "Sanción del Senado",
+      value: t.sancion ? formatFechaDDMMAAAA(t.sancion) : "Pendiente",
+      done: !!t.sancion
+    });
+
+    // mark the first not-done step as "active" (current stage)
+    var activeMarked = false;
+    return steps.map(function (s) {
+      var cls = s.done ? "done" : "";
+      if (!s.done && !activeMarked) { cls = "active"; activeMarked = true; }
+      return (
+        '<li class="' + cls + '">' +
+          '<div class="step-label">' + s.label + '</div>' +
+          '<div class="step-value' + (s.done ? '' : ' muted') + '">' + escapeHTML(s.value) + '</div>' +
+        '</li>'
+      );
+    }).join("");
+  }
+
+  function formatFechaDDMMAAAA(s) {
+    // ya viene como dd/mm/aaaa
+    return s;
+  }
+
+  var lastFocused = null;
+
+  function openModal(expediente) {
+    var p = pliegos.filter(function (x) { return x.expediente === expediente; })[0];
+    if (!p) return;
+    lastFocused = document.activeElement;
+    elModalExpediente.textContent = p.expediente;
+    elModalTitle.textContent = p.candidato;
+    elModalCargo.textContent = p.cargo + " — " + p.provincia;
+    elModalTimeline.innerHTML = timelineHTML(p);
+    elModalLink.href = p.url;
+
+    if (p.audiencia_programada) {
+      var ap = p.audiencia_programada;
+      elModalBadge.style.display = "flex";
+      elModalBadge.innerHTML = "📅 Audiencia pública programada: " + ap.fecha + " · " + ap.hora + " h · Salón " + escapeHTML(ap.salon);
+    } else {
+      elModalBadge.style.display = "none";
+    }
+
+    elModalOverlay.classList.add("open");
+    elModalClose.focus();
+    document.addEventListener("keydown", onKeydown);
+  }
+
+  function closeModal() {
+    elModalOverlay.classList.remove("open");
+    document.removeEventListener("keydown", onKeydown);
+    if (lastFocused) lastFocused.focus();
+  }
+
+  function onKeydown(e) {
+    if (e.key === "Escape") closeModal();
+  }
+
+  elModalClose.addEventListener("click", closeModal);
+  elModalOverlay.addEventListener("click", function (e) {
+    if (e.target === elModalOverlay) closeModal();
+  });
+
+  // --- Filters wiring ---
+  var searchTimer = null;
+  elSearch.addEventListener("input", function () {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      state.q = elSearch.value.trim().toLowerCase();
+      renderGrid();
+    }, 120);
+  });
+  elProvinciaSelect.addEventListener("change", function () {
+    state.provincia = elProvinciaSelect.value;
+    renderGrid();
+  });
+  elToggleProgramada.addEventListener("change", function () {
+    state.soloProgramada = elToggleProgramada.checked;
+    renderGrid();
+  });
+  elBtnClearFilters.addEventListener("click", function () {
+    state.provincia = "";
+    state.q = "";
+    state.soloProgramada = false;
+    elSearch.value = "";
+    elProvinciaSelect.value = "";
+    elToggleProgramada.checked = false;
+    renderGrid();
+  });
+
+  renderTabs();
+  renderView();
+})();
+</script>
+</body>
+</html>
