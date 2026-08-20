@@ -986,9 +986,16 @@ footer {
       done: !!t.audiencia
     });
 
+    var odValue = "Sin emitir";
+    if (t.orden_del_dia) {
+      odValue = "N° " + t.orden_del_dia.numero + "/" + String(t.orden_del_dia.anio).slice(-2);
+      if (t.orden_del_dia.fecha_dictamen) {
+        odValue += " · (" + t.orden_del_dia.fecha_dictamen.replace(/\/(\d{4})$/, function (m, y) { return "/" + y.slice(-2); }) + ")";
+      }
+    }
     steps.push({
       label: "Orden del Día",
-      value: t.orden_del_dia ? "N° " + t.orden_del_dia.numero + "/" + t.orden_del_dia.anio : "Sin emitir",
+      value: odValue,
       done: !!t.orden_del_dia
     });
 
