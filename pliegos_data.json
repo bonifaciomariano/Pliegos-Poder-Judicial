@@ -1,5 +1,5 @@
 {
-  "generado_al": "2026-08-19",
+  "generado_al": "2026-08-20",
   "total": 199,
   "provincias": [
     "Buenos Aires",
@@ -511,7 +511,7 @@
       "candidato": "RAMIRO VELASCO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -519,11 +519,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "320",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-232/26",
@@ -531,7 +534,7 @@
       "candidato": "VALERIA ALEJANDRA RICO",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 4 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -539,11 +542,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "319",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-231/26",
@@ -574,7 +580,7 @@
       "candidato": "SERGIO BUITRAGO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 26 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -582,11 +588,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "318",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-229/26",
@@ -617,7 +626,7 @@
       "candidato": "SANTIAGO JUAN SCHIOPETTO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -625,11 +634,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "317",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-222/26",
@@ -637,7 +649,7 @@
       "candidato": "ORNELLA ROMINA RIGGITANO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 27",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -645,11 +657,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "316",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-221/26",
@@ -657,7 +672,7 @@
       "candidato": "MATIAS EZEQUIEL EIDEM",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 7",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -665,11 +680,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "315",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-220/26",
@@ -789,7 +807,7 @@
       "candidato": "LEANDRO GASTON",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL FEDERAL DE LA PLATA, PROV. DE BUENOS AIRES, DEFENSORIA N° 2",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -797,11 +815,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "314",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-214/26",
@@ -809,7 +830,7 @@
       "candidato": "MARIA VIRGINIA MIGUEL CARMONA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE CATAMARCA, PROV. DE CATAMARCA",
       "provincia": "Catamarca",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -817,11 +838,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "313",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-213/26",
@@ -829,7 +853,7 @@
       "candidato": "MARIA SOLEDAD MANCINI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA A",
       "provincia": "Córdoba",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -837,11 +861,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "312",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-212/26",
@@ -961,7 +988,7 @@
       "candidato": "PAULA INES LO GIOIA",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE DOLORES, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -969,11 +996,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "311",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-206/26",
@@ -981,7 +1011,7 @@
       "candidato": "CARLOS NICOLAS ESCANDAR",
       "cargo": "DEFENSOR PUBLICO OFICIAL FEDERAL DEL INTERIOR DEL PAIS CON ASIENTO EN LA CDAD. DE SALTA, PROV. DE SALTA",
       "provincia": "Salta",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -989,11 +1019,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "310",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-205/26",
@@ -1001,7 +1034,7 @@
       "candidato": "FACUNDO CARLOS CORTES",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA B",
       "provincia": "Córdoba",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1009,11 +1042,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "309",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-204/26",
@@ -1090,7 +1126,7 @@
       "candidato": "ANDRES GUILLERMO FRAGA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE SAN JUSTO, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "04/06/2026",
         "dado_cuenta": {
@@ -1098,11 +1134,14 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "308",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-194/26",
@@ -2536,7 +2575,7 @@
       "candidato": "GERMAN LUIS ARTOLA",
       "cargo": "DEFENSOR PUBLICO OFICIAL ADJUNTO ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 11",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2544,11 +2583,14 @@
           "fecha": "14/05/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "307",
+          "anio": "2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-109/26",
