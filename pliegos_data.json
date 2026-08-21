@@ -32,6 +32,8 @@
       "candidato": "FRANCO MARIANO CARBONE",
       "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CIUDAD DE ROSARIO, PROVINCIA DE SANTA FE",
       "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -53,6 +55,8 @@
       "candidato": "MARIA DE LOS ANGELES SAPIN",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE LA SEGURIDAD SOCIAL N° 8 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Seguridad Social",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -74,6 +78,8 @@
       "candidato": "VALERIA ALICIA BERTOLINI",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE LA SEGURIDAD SOCIAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Seguridad Social",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -95,6 +101,8 @@
       "candidato": "ARIEL ALEJANDRO VILAR",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 30 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -116,6 +124,8 @@
       "candidato": "FEDERICO JOSE IUSPA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO PENAL ECONOMICO N° 2 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal Económico",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -137,6 +147,8 @@
       "candidato": "ROMINA SOLEDAD PARABONI",
       "cargo": "DEFENSORA AUXILIAR DE LA DEFENSORIA GENERAL DE LA NACION",
       "provincia": "Nacional / Federal",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -158,6 +170,8 @@
       "candidato": "MARIA LUCRECIA SAMMARTINO",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL Y ANTE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 12",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -179,6 +193,8 @@
       "candidato": "EMILIANO PEDRO MENDEZ ORTIZ",
       "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CIUDAD DE SAN LORENZO, PROVINCIA DE SANTA FE",
       "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -200,6 +216,8 @@
       "candidato": "SUSANA MARTA PERNAS",
       "cargo": "FISCAL GENERAL ANTE LOS TRIBUNALES ORALES DE MENORES DE LA CAPITAL FEDERAL, FISCALIA N° 2",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Menores",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -221,6 +239,8 @@
       "candidato": "LUCAS ALBERTO COLLA",
       "cargo": "FISCAL FEDERAL DE LA SEDE FISCAL DESCENTRALIZADA DE CALETA OLIVIA, PROVINCIA DE SANTA CRUZ",
       "provincia": "Santa Cruz",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -242,6 +262,8 @@
       "candidato": "ARLINDO OTTO KURTZ",
       "cargo": "FISCAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA EN LO CIVIL, COMERCIAL Y CONTENCIOSO ADMINISTRATIVO DE POSADAS, PROVINCIA DE MISIONES, FISCALIA N° 2",
       "provincia": "Misiones",
+      "rango": "Fiscal",
+      "fuero": "Contencioso Administrativo",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -263,6 +285,8 @@
       "candidato": "DANIELA ROMINA PART",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 45",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -284,6 +308,8 @@
       "candidato": "FERNANDO GABRIEL D´ALESSANDRO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA E",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -305,6 +331,8 @@
       "candidato": "MARIA NOEL FERNANDEZ RIVERA",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 49",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -326,6 +354,8 @@
       "candidato": "ALEJANDRA LEONOR PEREZ",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 55",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -347,6 +377,8 @@
       "candidato": "GABRIEL ESTEBAN PARAMOS",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 60",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -368,6 +400,8 @@
       "candidato": "SEBASTIAN EDUARDO MARTINEZ",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 11",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -389,6 +423,8 @@
       "candidato": "GUSTAVO AMELOTTI",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 38",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -410,6 +446,8 @@
       "candidato": "FACUNDO JESUS SORIANO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 53",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -431,6 +469,8 @@
       "candidato": "EDUARDO MIGUEL ROCCHI",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 18",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -452,6 +492,8 @@
       "candidato": "SANTIAGO BAHAMONDES",
       "cargo": "DEFENSOR PUBLICO DE VICTIMA CON ASIENTO EN LA PROVINCIA DE MENDOZA",
       "provincia": "Mendoza",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -473,6 +515,8 @@
       "candidato": "CAROLINA MORALES DEGANUT",
       "cargo": "DEFENSORA PUBLICA DE MENORES E INCAPACES ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N°3",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "03/08/2026",
@@ -494,6 +538,8 @@
       "candidato": "Conjueces (designación plural)",
       "cargo": "CONJUECES DE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA DEL TRABAJO DE LA JURISDICCION DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Conjueces",
+      "fuero": "Laboral",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "17/07/2026",
@@ -515,6 +561,8 @@
       "candidato": "Conjueces (designación plural)",
       "cargo": "CONJUECES DE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Conjueces",
+      "fuero": "Penal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "17/07/2026",
@@ -536,6 +584,8 @@
       "candidato": "RAMIRO VELASCO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -561,6 +611,8 @@
       "candidato": "VALERIA ALEJANDRA RICO",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 4 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -586,6 +638,8 @@
       "candidato": "PABLO YADAROLA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL FEDERAL DE LA CAPITAL FEDERAL, SALA I",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -611,6 +665,8 @@
       "candidato": "SERGIO BUITRAGO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 26 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -636,6 +692,8 @@
       "candidato": "PABLO DANIEL BERTUZZI",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL FEDERAL DE LA CAPITAL FEDERAL, SALA I",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -661,6 +719,8 @@
       "candidato": "SANTIAGO JUAN SCHIOPETTO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
@@ -686,6 +746,8 @@
       "candidato": "ORNELLA ROMINA RIGGITANO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 27",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -711,6 +773,8 @@
       "candidato": "MATIAS EZEQUIEL EIDEM",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 7",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -736,6 +800,8 @@
       "candidato": "LEONARDO MARCO TOIA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CONTENCIOSO ADMINISTRATIVO FEDERAL N° 7 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Contencioso Administrativo",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -757,6 +823,8 @@
       "candidato": "JUAN NOEL VARELA",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 35",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -782,6 +850,8 @@
       "candidato": "PATRICIA LUJAN CISNERO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 43",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -807,6 +877,8 @@
       "candidato": "DANIEL FERNANDO CANO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 3",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -832,6 +904,8 @@
       "candidato": "ESTEBAN JOSE CHERVIN",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 6",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -857,6 +931,8 @@
       "candidato": "LEANDRO GASTON",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL FEDERAL DE LA PLATA, PROV. DE BUENOS AIRES, DEFENSORIA N° 2",
       "provincia": "Buenos Aires",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -882,6 +958,8 @@
       "candidato": "MARIA VIRGINIA MIGUEL CARMONA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE CATAMARCA, PROV. DE CATAMARCA",
       "provincia": "Catamarca",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -907,6 +985,8 @@
       "candidato": "MARIA SOLEDAD MANCINI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA A",
       "provincia": "Córdoba",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -932,6 +1012,8 @@
       "candidato": "JUAN SANTIAGO YLARRI",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 22 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -957,6 +1039,8 @@
       "candidato": "PABLO CESAR CINA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 19 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -982,6 +1066,8 @@
       "candidato": "JUAN PABLO ANGEL SALA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 23 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Comercial",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1007,6 +1093,8 @@
       "candidato": "WALTER ALFREDO CAVASSA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 12 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1032,6 +1120,8 @@
       "candidato": "GERMAN HELVIO QUEIPO",
       "cargo": "FISCAL GENERAL ADJUNTO ANTE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Laboral",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1053,6 +1143,8 @@
       "candidato": "PAULA INES LO GIOIA",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE DOLORES, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1078,6 +1170,8 @@
       "candidato": "CARLOS NICOLAS ESCANDAR",
       "cargo": "DEFENSOR PUBLICO OFICIAL FEDERAL DEL INTERIOR DEL PAIS CON ASIENTO EN LA CDAD. DE SALTA, PROV. DE SALTA",
       "provincia": "Salta",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1103,6 +1197,8 @@
       "candidato": "FACUNDO CARLOS CORTES",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA B",
       "provincia": "Córdoba",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1128,6 +1224,8 @@
       "candidato": "VALERIA PÉREZ CASADO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA C",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1153,6 +1251,8 @@
       "candidato": "ADOLFO OMAR PIENDIBENE",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 38 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1178,6 +1278,8 @@
       "candidato": "FEDERICO ALFREDO BATTILANA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 30 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
@@ -1203,6 +1305,8 @@
       "candidato": "ANDRES GUILLERMO FRAGA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE SAN JUSTO, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "04/06/2026",
@@ -1228,6 +1332,8 @@
       "candidato": "KARINA GABRIELA RAPKINAS",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 69 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "04/06/2026",
@@ -1253,6 +1359,8 @@
       "candidato": "MARIA VERONICA MICHELLI",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "27/05/2026",
@@ -1274,6 +1382,8 @@
       "candidato": "MIGUEL ANGEL ASTURIAS",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 27 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "27/05/2026",
@@ -1299,6 +1409,8 @@
       "candidato": "MARIANO ADOLFO KLUMPP",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 9 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "27/05/2026",
@@ -1324,6 +1436,8 @@
       "candidato": "DIEGO ANDRES VILLANUEVA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 42 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "27/05/2026",
@@ -1349,6 +1463,8 @@
       "candidato": "MARIA GABRIELA JANEIRO",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE LA SEGURIDAD SOCIAL N° 5 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Seguridad Social",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "27/05/2026",
@@ -1374,6 +1490,8 @@
       "candidato": "JOSE IGNACIO POLIZZA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 14 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "19/05/2026",
@@ -1399,6 +1517,8 @@
       "candidato": "ANGELA CECILIA PAGANO MATA",
       "cargo": "JUEZA DEL TRIBUNAL FEDERAL DE JUICIO DE COMODORO RIVADAVIA, PROV. DEL CHUBUT",
       "provincia": "Chubut",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "19/05/2026",
@@ -1424,6 +1544,8 @@
       "candidato": "RAMIRO ARIEL MARIÑO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 54 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "19/05/2026",
@@ -1449,6 +1571,8 @@
       "candidato": "JAVIER JORGE COSENTINO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA C",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "15/05/2026",
@@ -1474,6 +1598,8 @@
       "candidato": "FLORENTINO MALAPONTE",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE ROSARIO, PROV. DE SANTA FE, SALA A",
       "provincia": "Santa Fe",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "15/05/2026",
@@ -1499,6 +1625,8 @@
       "candidato": "ANA MARIA BUSLEIMAN",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE CATAMARCA, PROV. DE CATAMARCA",
       "provincia": "Catamarca",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "14/05/2026",
@@ -1524,6 +1652,8 @@
       "candidato": "SEBASTIAN PEDRO RUIZ",
       "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE COMODORO RIVADAVIA, PROV. DEL CHUBUT",
       "provincia": "Chubut",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "14/05/2026",
@@ -1549,6 +1679,8 @@
       "candidato": "FERNANDO GABRIEL ALCARAZ",
       "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL MENDOZA, PROVINCIA DE MENDOZA",
       "provincia": "Mendoza",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1574,6 +1706,8 @@
       "candidato": "MAXIMILIANO ALBERTO LEANDRO CALLIZO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 58 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1599,6 +1733,8 @@
       "candidato": "SERGIO ALEJANDRO ECHEGARAY",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 44 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1624,6 +1760,8 @@
       "candidato": "JUAN MANUEL CABRAL",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA K",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1649,6 +1787,8 @@
       "candidato": "ALBERTINA ANATONIA CARON",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 19 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1674,6 +1814,8 @@
       "candidato": "PEDRO MANUEL CRESPO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 28 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Comercial",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1699,6 +1841,8 @@
       "candidato": "SEBASTIAN RODRIGO GHERSI",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 45 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1724,6 +1868,8 @@
       "candidato": "PATRICIO NICOLAS SABADINI",
       "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL DE RESISTENCIA, PROVINCIA DEL CHACO",
       "provincia": "Chaco",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1749,6 +1895,8 @@
       "candidato": "SANTIAGO JOSE MARTIN",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE MAR DEL PLATA, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1774,6 +1922,8 @@
       "candidato": "SANTIAGO FRENCH",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE SALTA, PROV. DE SALTA, SALA I",
       "provincia": "Salta",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1799,6 +1949,8 @@
       "candidato": "AMANDA ESPINO",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 7",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1824,6 +1976,8 @@
       "candidato": "EVANGELINA MARIA LASALA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 18 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "13/05/2026",
@@ -1849,6 +2003,8 @@
       "candidato": "JOSE MARIA ABRAM LUJAN",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 110 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1874,6 +2030,8 @@
       "candidato": "PILAR FERNANDEZ ESCARGUEL",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 109 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1899,6 +2057,8 @@
       "candidato": "HUGO DANIEL FROY",
       "cargo": "FISCAL FEDERAL DE LA SEDE FISCAL DESCENTRALIZADA DE PASO DE LOS LIBRES, PROVINCIA DE CORRIENTES",
       "provincia": "Corrientes",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1924,6 +2084,8 @@
       "candidato": "JUAN TOMAS RODRIGUEZ PONTE",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA EN LO CRIMINAL Y CORRECCIONAL N° 2 DE LOMAS DE ZAMORA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1949,6 +2111,8 @@
       "candidato": "SANTIAGO VILLAGRAN",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N°19 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1974,6 +2138,8 @@
       "candidato": "PAULA VANESA ROMEO",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 18 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -1999,6 +2165,8 @@
       "candidato": "JULIO CESAR DI GIORGIO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 10 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -2024,6 +2192,8 @@
       "candidato": "JUAN CARLOS RICCARDINI",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 9 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
@@ -2049,6 +2219,8 @@
       "candidato": "ANGEL ROGER LUNA ROLDAN",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE TUCUMAN, PROV. DE TUCUMAN",
       "provincia": "Tucumán",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2074,6 +2246,8 @@
       "candidato": "MARIA VIRGINIA ISE",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE RESISTENCIA, PROV. DEL CHACO",
       "provincia": "Chaco",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2099,6 +2273,8 @@
       "candidato": "JUAN MARCELO BURELLA ACEVEDO",
       "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL DE CORRIENTES, PROV. DE CORRIENTES",
       "provincia": "Corrientes",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2124,6 +2300,8 @@
       "candidato": "RUTH MARIA PONCE DE LEON",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE POSADAS, PROV. DE MISIONES",
       "provincia": "Misiones",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2149,6 +2327,8 @@
       "candidato": "PABLO ROBERTO TOLEDO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE TUCUMAN, PROV. DE TUCUMAN",
       "provincia": "Tucumán",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2174,6 +2354,8 @@
       "candidato": "CLAUDIO FABIAN LOGUARRO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA III",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2199,6 +2381,8 @@
       "candidato": "DIEGO FERNANDO MANAUTA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA V",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2224,6 +2408,8 @@
       "candidato": "DIEGO JAVIER TULA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA II",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2249,6 +2435,8 @@
       "candidato": "MARINA EDITH PISACCO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA VI",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2274,6 +2462,8 @@
       "candidato": "MARIA CLAUDIA JUEGUEN",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA X",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2299,6 +2489,8 @@
       "candidato": "VICTOR ARTURO PESINO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA VIII",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2324,6 +2516,8 @@
       "candidato": "LEOPOLDO JORGE RAGO GALLO",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N°2 DE SAN JUAN, PROVINCIA DE SAN JUAN",
       "provincia": "San Juan",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "11/05/2026",
@@ -2349,6 +2543,8 @@
       "candidato": "Conjueces (designación plural)",
       "cargo": "CONJUECES DE LOS JUZGADOS FEDERALES DE PRIMERA INSTANCIA DE LA JURISDICCIÓN DE LA CÁMARA FEDERAL DE APELACIONES DE CÓRDOBA",
       "provincia": "Córdoba",
+      "rango": "Conjueces",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2374,6 +2570,8 @@
       "candidato": "MATILDE EVANGELINA BALLERINI",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA B",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2399,6 +2597,8 @@
       "candidato": "PEDRO MARIANO REBOLLO",
       "cargo": "FISCAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE GUALEGUAYCHÚ, PROV. DE ENTRE RÍOS",
       "provincia": "Entre Ríos",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2424,6 +2624,8 @@
       "candidato": "NATALIA CECILIA CREDE",
       "cargo": "FISCAL GENERAL ANTE LOS TRIBUNALES ORALES EN LO PENAL ECONÓMICO DE LA CAPITAL FEDERAL FISCALÍA N° 3",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal Económico",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2449,6 +2651,8 @@
       "candidato": "MARÍA ÁNGELES RAMOS",
       "cargo": "FISCAL GENERAL ANTE LOS TRIBUNALES ORALES EN LO PENAL ECONÓMICO DE LA CAPITAL FEDERAL, FISCALÍA N° 4",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal Económico",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2474,6 +2678,8 @@
       "candidato": "SANTIAGO ROLDAN",
       "cargo": "FISCAL GENERAL ANTE LOS TRIBUNALES ORALES EN LO PENAL ECONÓMICO DE LA CAPITAL FEDERAL, FISCALÍA N° 2",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal Económico",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2499,6 +2705,8 @@
       "candidato": "GUSTAVO ALEJANDRO ROQUE CULTRARO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 10 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Comercial",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2524,6 +2732,8 @@
       "candidato": "BERNARDO MARIA RODRIGUEZ PALMA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 2 DE SAN MARTIN, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2549,6 +2759,8 @@
       "candidato": "FERNANDO CARLOS DAMIAN PASCUAL",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 41 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2574,6 +2786,8 @@
       "candidato": "MARIANA SALDUNA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 25 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2599,6 +2813,8 @@
       "candidato": "VANESA SILVANA ALFARO",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 16 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2624,6 +2840,8 @@
       "candidato": "BARBARA RASTELLINO",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 27 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2649,6 +2867,8 @@
       "candidato": "JAVIER RODRIGO PEREYRA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 3 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2674,6 +2894,8 @@
       "candidato": "AGUSTIN RAUL RUBIERO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA D",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2699,6 +2921,8 @@
       "candidato": "ALICIA ISABEL BRAGHINI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA III",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Seguridad Social",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2724,6 +2948,8 @@
       "candidato": "FLORENCIA INÉS CORDOBA",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 66 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2749,6 +2975,8 @@
       "candidato": "LUCILA CALIFANO",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 9 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2774,6 +3002,8 @@
       "candidato": "HERNAN ENRIQUE FIGUEROA",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO PENAL ECONOMICO DE LA CAPITAL FEDERAL, DEFENSORIA N° 2",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal Económico",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2799,6 +3029,8 @@
       "candidato": "GERMAN LUIS ARTOLA",
       "cargo": "DEFENSOR PUBLICO OFICIAL ADJUNTO ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 11",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2824,6 +3056,8 @@
       "candidato": "NURIA SABA SARDAÑONS",
       "cargo": "DEFENSORA PUBLICA OFICIAL ADJUNTA ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 15",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2849,6 +3083,8 @@
       "candidato": "JOSE NICOLAS CELESTINO CHUMBITA",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE EL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE LA RIOJA, PROV. DE LA RIOJA",
       "provincia": "La Rioja",
+      "rango": "Defensor/a",
+      "fuero": "Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2874,6 +3110,8 @@
       "candidato": "SOFIA BEATRIZ DEL MILAGRO MARTIN",
       "cargo": "DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROV. DE SANTIAGO DEL ESTERO",
       "provincia": "Santiago del Estero",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2899,6 +3137,8 @@
       "candidato": "MAXIMILIANO EDUARDO NICOLAS",
       "cargo": "DEFENSOR PUBLICO DE MENORES E INCAPACES ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 4",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2924,6 +3164,8 @@
       "candidato": "MARIA LAURA IRASTORZA",
       "cargo": "DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROV. DE RIO NEGRO",
       "provincia": "Río Negro",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2949,6 +3191,8 @@
       "candidato": "MARIA ESTHER PINOS",
       "cargo": "DEFENSORA PUBLICA OFICIAL FEDERAL DEL INTERIOR DEL PAIS CON ASIENTO EN LA CIUDAD DE FORMOSA, PROV. DE FORMOSA",
       "provincia": "Formosa",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2974,6 +3218,8 @@
       "candidato": "ANA CLARISA GALAN MUÑOZ",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LA CAMARA FEDERAL DE CASACION PENAL, DEFENSORIA N° 3",
       "provincia": "Nacional / Federal",
+      "rango": "Defensor/a",
+      "fuero": "Casación Penal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2999,6 +3245,8 @@
       "candidato": "JUAN IGNACIO LAZZANEO",
       "cargo": "DEFENSOR PUBLICO DE VICTIMA CON ASIENTO EN LA PROVINCIA DE ENTRE RIOS",
       "provincia": "Entre Ríos",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3024,6 +3272,8 @@
       "candidato": "SEBASTIAN GUILLERMO SONEIRA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE MENDOZA, PROVINCIA DE MENDOZA, SALA A",
       "provincia": "Mendoza",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3049,6 +3299,8 @@
       "candidato": "JUAN MANUEL MEJUTO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°8 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3070,6 +3322,8 @@
       "candidato": "MARCELO ALEJANDRO PELUZZI",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°2 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3095,6 +3349,8 @@
       "candidato": "Asignación de salas y vocalías",
       "cargo": "MENSAJE N° 99/26 QUE ASIGNA SALAS Y VOCALIAS A MENSAJES REMITIDOS SOLICITANDO ACUERDO PARA DESIGNAR A MAGISTRADOS JUDICIALES.",
       "provincia": "Nacional / Federal",
+      "rango": "Sin rango (mensaje administrativo)",
+      "fuero": "Otros",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3116,6 +3372,8 @@
       "candidato": "PAULA DIANA MARINKOVIC",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 77 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "08/04/2026",
@@ -3141,6 +3399,8 @@
       "candidato": "DIEGO JAVIER SOUTO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 31 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "08/04/2026",
@@ -3166,6 +3426,8 @@
       "candidato": "LEANDRO AGUSTIN GOMEZ CONSTENLA",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE SAN CARLOS DE BARILOCHE, PROV. DE RIO NEGRO",
       "provincia": "Río Negro",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "08/04/2026",
@@ -3191,6 +3453,8 @@
       "candidato": "DIEGO ANZORREGUY",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 2 DE SALTA, PROV. DE SALTA",
       "provincia": "Salta",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3216,6 +3480,8 @@
       "candidato": "JUAN PEDRO GIUDICI",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 4 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Comercial",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3241,6 +3507,8 @@
       "candidato": "MARIA FLORENCIA MASSA",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE EJECUCIONES FISCALES TRIBUTARIAS N° 4 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Ejecuciones Fiscales / Tributario",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3266,6 +3534,8 @@
       "candidato": "GABRIELA MARIEL PALOPOLI",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 94 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3291,6 +3561,8 @@
       "candidato": "MARIO ALBERTO FERRARIO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 2 DE SAN MARTIN, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3316,6 +3588,8 @@
       "candidato": "PABLO ANTONIO MATKOVIC",
       "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE NEUQUEN, PROV. DEL NEUQUEN",
       "provincia": "Neuquén",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3341,6 +3615,8 @@
       "candidato": "SANTIAGO JOAQUIN SAUX",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE RAFAELA, PROV. DE SANTA FE",
       "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3366,6 +3642,8 @@
       "candidato": "MARIANO FRANCISCO AMADURI",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 7 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3391,6 +3669,8 @@
       "candidato": "JUAN MANUEL GASET MAISONAVE",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 5 DE SAN MARTIN, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3416,6 +3696,8 @@
       "candidato": "JOSE MIGUEL GUERRERO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 1 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "07/04/2026",
@@ -3441,6 +3723,8 @@
       "candidato": "JESICA YAEL SIRCOVICH",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 1 DE LA PLATA, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "06/04/2026",
@@ -3466,6 +3750,8 @@
       "candidato": "SANTIAGO VISMARA",
       "cargo": "FISCAL GENERAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N°9",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "01/04/2026",
@@ -3491,6 +3777,8 @@
       "candidato": "CARLOS AGUSTIN PARMA",
       "cargo": "DEFENSOR PUBLICO OFICIAL FEDERAL DEL INTERIOR DEL PAIS CON ASIENTO EN LA CDAD. DE MENDOZA, PROV. DE MENDOZA",
       "provincia": "Mendoza",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "01/04/2026",
@@ -3516,6 +3804,8 @@
       "candidato": "YAMILE SUSANA BERNAN",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 14",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3541,6 +3831,8 @@
       "candidato": "MARIA AGUSTINA BOYAJIAN RIVAS",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO COMERCIAL N° 22 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Comercial",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3566,6 +3858,8 @@
       "candidato": "MARIA LAURA AMERI",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE EJECUCIONES FISCALES TRIBUTARIAS N° 3 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Fiscal",
+      "fuero": "Ejecuciones Fiscales / Tributario",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3591,6 +3885,8 @@
       "candidato": "DIEGO ALLIEVI",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE LA SEGURIDAD SOCIAL N° 10 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Seguridad Social",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3616,6 +3912,8 @@
       "candidato": "SANTOS ENRIQUE CIFUENTES",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 25 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3641,6 +3939,8 @@
       "candidato": "WALTER ALBERTO RODRIGUEZ",
       "cargo": "JUEZ DEL JUZGADO FEDERAL DE GARANTIAS N° 2 DE SANTA FE, PROVINCIA DE SANTA FE",
       "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3666,6 +3966,8 @@
       "candidato": "PABLO FEDERICO MOYA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL Nª 47 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3691,6 +3993,8 @@
       "candidato": "MARIA CRISTINA JUAN",
       "cargo": "JUEZA DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE HURLINGHAM, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3716,6 +4020,8 @@
       "candidato": "JORGE DJIVARIS",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO COMERCIAL DE LA CAPITAL FEDERAL, SALA B",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3741,6 +4047,8 @@
       "candidato": "LAUREANO ALBERTO DURAN",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE LA PLATA, PROV. DE BUENOS AIRES, SALA I",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3766,6 +4074,8 @@
       "candidato": "FEDERICO NOVELLO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO PENAL ECONOMICO N° 2 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal Económico",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3791,6 +4101,8 @@
       "candidato": "JAVIER MATIAS ARZUBI CALVO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 5 DE SAN MARTIN, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "31/03/2026",
@@ -3816,6 +4128,8 @@
       "candidato": "JUAN ANDRES MOLDES",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO PENAL ECONOMICO, FISCALIA N° 1",
       "provincia": "Nacional / Federal",
+      "rango": "Fiscal",
+      "fuero": "Penal Económico",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3841,6 +4155,8 @@
       "candidato": "EMILIO ROSATTI",
       "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE SANTA FE, PROVINCIA DE SANTA FE",
       "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3866,6 +4182,8 @@
       "candidato": "LAURA WISZNIACKI",
       "cargo": "JUEZA DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL Nº 62 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3891,6 +4209,8 @@
       "candidato": "NICOLAS RAMON CEBALLOS",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL Nº 7 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3916,6 +4236,8 @@
       "candidato": "LAURA FABIANA KVITKO",
       "cargo": "JUEZA DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 23 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3941,6 +4263,8 @@
       "candidato": "PABLO JAVIER FLORES",
       "cargo": "JUEZ DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE SAN MARTÍN, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3966,6 +4290,8 @@
       "candidato": "FERNANDO STRASSER",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA III",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Seguridad Social",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3991,6 +4317,8 @@
       "candidato": "WALTER FABIAN CARNOTA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA II",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Seguridad Social",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4016,6 +4344,8 @@
       "candidato": "LUCILA INES CORDOBA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA K",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4041,6 +4371,8 @@
       "candidato": "PAULA ANDREA CASTRO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA F",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4066,6 +4398,8 @@
       "candidato": "SAMANTA CLAUDIA BISCARDI",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA E",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4091,6 +4425,8 @@
       "candidato": "ANALIA VICTORIA ROMERO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA E",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4116,6 +4452,8 @@
       "candidato": "OSVALDO FELIPE PITRAU",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL, SALA F",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4141,6 +4479,8 @@
       "candidato": "SANTIAGO QUIAN ZAVALIA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 20",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4166,6 +4506,8 @@
       "candidato": "GERARDO DANIEL CACACE",
       "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE FORMOSA, PROVINCIA DE FORMOSA",
       "provincia": "Formosa",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4191,6 +4533,8 @@
       "candidato": "GERMAN AUGUSTO DEGANO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 64 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4216,6 +4560,8 @@
       "candidato": "EZEQUIEL JAVIER SOBRINO REIG",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 80 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4241,6 +4587,8 @@
       "candidato": "HUGO FABIAN DECARIA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 3 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4266,6 +4614,8 @@
       "candidato": "FELIPE ALBERTO ALLIAUD",
       "cargo": "DEFENSOR PUBLICO CURADOR DE LA DEFENSORIA GENERAL DE LA NACION, DEFENSORIA PUBLICA CURADURIA N° 4",
       "provincia": "Nacional / Federal",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4291,6 +4641,8 @@
       "candidato": "LUCAS MARCELO BELLOTTI SAN MARTIN",
       "cargo": "DEFENSOR PUBLICO DE MENORES E INCAPACES ANTE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 2",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4316,6 +4668,8 @@
       "candidato": "MARCELA LORENA SASSO",
       "cargo": "DEFENSORA PUBLICA DE MENORES E INCAPACES ANTE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 3",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4341,6 +4695,8 @@
       "candidato": "VERONICA MABEL POLVERINI",
       "cargo": "DEFENSORA PUBLICA DE MENORES E INCAPACES ANTE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 7",
       "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4366,6 +4722,8 @@
       "candidato": "JUAN PEDRO GALVAN GREENWAY",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, SALA A",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal Económico",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4387,6 +4745,8 @@
       "candidato": "PABLO EZEQUIEL WILK",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 2 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4412,6 +4772,8 @@
       "candidato": "ALEJANDRO JAVIER CATANIA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, SALA B",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal Económico",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4433,6 +4795,8 @@
       "candidato": "Conjueces (designación plural)",
       "cargo": "CONJUECES DE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA EN LO CIVIL CON COMPETENCIA EXCLUSIVA EN ASUNTOS DE FAMILIA Y CAPACIDAD DE LAS PERSONAS DE LA JURISDICCION DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Conjueces",
+      "fuero": "Familia",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4458,6 +4822,8 @@
       "candidato": "MARIA JULIA SOSA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4483,6 +4849,8 @@
       "candidato": "JUAN MARTIN BALCAZAR",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 95 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4508,6 +4876,8 @@
       "candidato": "MARIA VERONICA MICHELLI",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4533,6 +4903,8 @@
       "candidato": "CARLOS FABIAN CUESTA",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4558,6 +4930,8 @@
       "candidato": "SOLEDAD EUGENIA MARIÑO",
       "cargo": "JUEZA DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 18 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4583,6 +4957,8 @@
       "candidato": "PAULA FUERTES",
       "cargo": "JUEZA DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 14 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4608,6 +4984,8 @@
       "candidato": "CLAUDIO RICARDO SILVESTRI",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 1 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4633,6 +5011,8 @@
       "candidato": "MARIA INES RESTON",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y ANTE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, DEFENSORIA N° 1",
       "provincia": "Nacional / Federal",
+      "rango": "Defensor/a",
+      "fuero": "Penal Económico",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4658,6 +5038,8 @@
       "candidato": "MARIA GLORIA CAPANEGRA",
       "cargo": "JUEZA DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 17 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4683,6 +5065,8 @@
       "candidato": "EMILIO SANTIAGO FAGGI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE LA PLATA, PROVINCIA DE BUENOS AIRES, SALA III",
       "provincia": "Buenos Aires",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4708,6 +5092,8 @@
       "candidato": "SANTIAGO JOSE JAIMES MUNILLA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 59 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4733,6 +5119,8 @@
       "candidato": "IVANA SANDRA QUINTEROS",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 20 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4758,6 +5146,8 @@
       "candidato": "NICOLAS GRAPPASONNO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE CASACION EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, VOCALIA N° 10",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Casación Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4783,6 +5173,8 @@
       "candidato": "JULIAN HERRERA",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 44 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4808,6 +5200,8 @@
       "candidato": "IGNACIO LABADENS",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE MENORES N° 2 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Menores",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4833,6 +5227,8 @@
       "candidato": "JAVIER ALBERTO SANTISO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 5 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Civil",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4858,6 +5254,8 @@
       "candidato": "SANTIAGO ALBERTO PONCIO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL EN LO CRIMINAL Y CORRECCIONAL N° 13 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4883,6 +5281,8 @@
       "candidato": "NICOLAS ANTONIO PACILIO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 1 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4908,6 +5308,8 @@
       "candidato": "RICARDO SANTIAGO LOMBARDO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL DE MENORES N° 3 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Menores",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4933,6 +5335,8 @@
       "candidato": "CARLOS ALBERTO MAHIQUES",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE CASACION PENAL, VOCALIA VII",
       "provincia": "Nacional / Federal",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Casación Penal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "04/02/2026",
@@ -4958,6 +5362,8 @@
       "candidato": "MIRTA DELIA TYDEN",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE POSADAS, PROV. DE MISIONES",
       "provincia": "Misiones",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "26/08/2025",
@@ -4983,6 +5389,8 @@
       "candidato": "RAUL ALBERTO FOURCADE",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE SAN LUIS, PROV. DE SAN LUIS",
       "provincia": "San Luis",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "14/11/2024",
@@ -5004,6 +5412,8 @@
       "candidato": "ROBERTO ENRIQUE HORNOS",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO DE LA CAPITAL FEDERAL, SALA B",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal Económico",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "02/08/2024",
@@ -5029,6 +5439,8 @@
       "candidato": "JORGE EDUARDO MORAN",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CONTENCIOSO ADMINISTRATIVO FEDERAL DE LA CAPITAL FEDERAL, SALA IV",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Contencioso Administrativo",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "02/08/2024",
@@ -5054,6 +5466,8 @@
       "candidato": "ARIEL OSCAR LIJO",
       "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
       "provincia": "Nacional / Federal",
+      "rango": "Corte Suprema",
+      "fuero": "Otros",
       "categoria": "rechazado",
       "timeline": {
         "ingreso": "28/05/2024",
@@ -5079,6 +5493,8 @@
       "candidato": "MANUEL JOSE GARCIA MANSILLA",
       "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
       "provincia": "Nacional / Federal",
+      "rango": "Corte Suprema",
+      "fuero": "Otros",
       "categoria": "rechazado",
       "timeline": {
         "ingreso": "28/05/2024",
@@ -5104,6 +5520,8 @@
       "candidato": "CARLOS MANUEL GRECCO",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CONTENCIOSO ADMINISTRATIVO FEDERAL DE LA CAPITAL FEDERAL, SALA III",
       "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Contencioso Administrativo",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "31/01/2024",
@@ -5125,6 +5543,8 @@
       "candidato": "Retiro de mensaje(s) de designación",
       "cargo": "MENSAJE N° 8/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES QUE SOLICITARAN ACUERDOS PARA DESIGNAR FUNCIONARIOS Y FUNCIONARIAS DEL PODER JUDICIAL DE LA NACIÓN. (REF. P.E. 158, 159, 160 Y 168/23)",
       "provincia": "Nacional / Federal",
+      "rango": "Sin rango (mensaje administrativo)",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "29/12/2023",
@@ -5146,6 +5566,8 @@
       "candidato": "Retiro de mensaje(s) de designación",
       "cargo": "MENSAJE N° 2/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES POR LOS CUALES SE SOLICITARA ACUERDOS PARA DESIGNAR FUNCIONARIOS DEL PODER JUDICIAL DE LA NACIÓN, DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN Y DEL MINISTERIO PÚBLICO DE LA DEFENSA DE LA NACIÓN.",
       "provincia": "Nacional / Federal",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/12/2023",
@@ -5167,6 +5589,8 @@
       "candidato": "DANIEL EDUARDO RAFECAS",
       "cargo": "PROCURADOR GENERAL DE LA NACIÓN",
       "provincia": "Nacional / Federal",
+      "rango": "Procurador/a General",
+      "fuero": "Otros",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/12/2023",

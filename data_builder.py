@@ -221,6 +221,60 @@ def extract_provincia(cargo_text):
     return "Nacional / Federal"
 
 
+# Orden de prioridad: se evalúa de arriba a abajo y gana el primer match,
+# para que cargos que combinan varias palabras clave (ej. "JUEZ DE CAMARA
+# DEL TRIBUNAL ORAL EN LO PENAL ECONOMICO", que tiene "JUEZ" y "CAMARA")
+# caigan en la categoría más específica y no en un cajón genérico.
+RANGO_RULES = [
+    ("Corte Suprema", ["CORTE SUPREMA"]),
+    ("Procurador/a General", ["PROCURADOR"]),
+    ("Conjueces", ["CONJUECES"]),
+    ("Defensor/a", ["DEFENSOR"]),
+    ("Fiscal", ["FISCAL"]),
+    ("Camarista / Vocal de Cámara", ["CAMARA", "CÁMARA"]),
+    ("Juez/a (primera instancia)", ["JUEZ", "JUEZA"]),
+]
+
+
+def extract_rango(cargo_text):
+    upper = cargo_text.upper()
+    for nombre, keywords in RANGO_RULES:
+        if any(kw in upper for kw in keywords):
+            return nombre
+    return "Sin rango (mensaje administrativo)"
+
+
+# Mismo criterio de prioridad que RANGO_RULES: las materias más específicas
+# van primero para no perderlas contra una genérica que también matchea
+# (ej. "PENAL ECONOMICO" contiene "PENAL"; "CASACION PENAL" idem; una
+# "DEFENSORA DE MENORES... EN LO CRIMINAL" es Menores, no Penal genérico).
+FUERO_RULES = [
+    ("Penal Económico", ["PENAL ECONOMICO", "PENAL ECONÓMICO"]),
+    ("Casación Penal", ["CASACION", "CASACIÓN"]),
+    ("Menores", ["MENORES"]),
+    ("Familia", ["FAMILIA"]),
+    ("Seguridad Social", ["SEGURIDAD SOCIAL"]),
+    ("Laboral", ["DEL TRABAJO"]),
+    ("Contencioso Administrativo", ["CONTENCIOSO ADMINISTRATIVO"]),
+    ("Comercial", ["COMERCIAL"]),
+    ("Civil", ["CIVIL"]),
+    ("Ejecuciones Fiscales / Tributario", ["EJECUCIONES FISCALES", "TRIBUTARIA"]),
+    ("Penal", ["CRIMINAL", "PENAL", "GARANTIAS", "GARANTÍAS"]),
+]
+
+
+def extract_fuero(cargo_text):
+    """Materia del tribunal. Cargos nacionales sin fuero (Corte Suprema,
+    Procurador General, Defensoría General, Conjueces plurales) y juzgados/
+    cámaras/fiscalías federales del interior sin especialización por materia
+    caen en "Otros"."""
+    upper = cargo_text.upper()
+    for nombre, keywords in FUERO_RULES:
+        if any(kw in upper for kw in keywords):
+            return nombre
+    return "Otros"
+
+
 def is_judicial(cargo_text):
     upper = cargo_text.upper()
     return any(kw in upper for kw in CARGO_KEYWORDS_JUDICIALES)
@@ -418,6 +472,8 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
             continue
 
         provincia = extract_provincia(cargo)
+        rango = extract_rango(cargo)
+        fuero = extract_fuero(cargo)
 
         _, dae_url_txt = hyperlink_parts(row[col["NRO. DAE / DADO CUENTA"]].value)
         dae_raw = dae_url_txt or row[col["NRO. DAE / DADO CUENTA"]].value
@@ -471,6 +527,8 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
             "candidato": candidato,
             "cargo": cargo,
             "provincia": provincia,
+            "rango": rango,
+            "fuero": fuero,
             "categoria": categoria,
             "timeline": {
                 "ingreso": fecha_ingreso,

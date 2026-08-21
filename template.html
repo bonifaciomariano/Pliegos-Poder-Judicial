@@ -720,6 +720,12 @@ footer {
     <select id="provincia-select" aria-label="Filtrar por jurisdicción">
       <option value="">Todas las jurisdicciones</option>
     </select>
+    <select id="rango-select" aria-label="Filtrar por rango">
+      <option value="">Todos los rangos</option>
+    </select>
+    <select id="fuero-select" aria-label="Filtrar por fuero">
+      <option value="">Todos los fueros</option>
+    </select>
     <label class="toggle" id="toggle-programada-wrap">
       <input type="checkbox" id="toggle-programada" />
       <span class="switch" aria-hidden="true"></span>
@@ -793,7 +799,7 @@ footer {
     rechazado: { cls: "rechazo", label: "Rechazado" }
   };
 
-  var state = { categoria: "todos", provincia: "", q: "", soloProgramada: false };
+  var state = { categoria: "todos", provincia: "", rango: "", fuero: "", q: "", soloProgramada: false };
 
   var elTabs = document.getElementById("tabs");
   var elGrid = document.getElementById("grid");
@@ -801,6 +807,8 @@ footer {
   var elResultCount = document.getElementById("result-count");
   var elSearch = document.getElementById("search");
   var elProvinciaSelect = document.getElementById("provincia-select");
+  var elRangoSelect = document.getElementById("rango-select");
+  var elFueroSelect = document.getElementById("fuero-select");
   var elToggleProgramada = document.getElementById("toggle-programada");
   var elToggleProgramadaWrap = document.getElementById("toggle-programada-wrap");
   var elStatTotal = document.getElementById("stat-total");
@@ -819,6 +827,30 @@ footer {
     opt.textContent = p;
     elProvinciaSelect.appendChild(opt);
   });
+
+  var RANGO_ORDEN = [
+    "Corte Suprema", "Procurador/a General", "Conjueces", "Defensor/a",
+    "Fiscal", "Camarista / Vocal de Cámara", "Juez/a (primera instancia)",
+    "Sin rango (mensaje administrativo)"
+  ];
+  var FUERO_ORDEN = [
+    "Penal", "Penal Económico", "Casación Penal", "Menores", "Familia",
+    "Seguridad Social", "Laboral", "Contencioso Administrativo", "Comercial",
+    "Civil", "Ejecuciones Fiscales / Tributario", "Otros"
+  ];
+
+  function poblarSelect(el, campo, valoresOrdenados) {
+    var presentes = {};
+    pliegos.forEach(function (p) { presentes[p[campo]] = true; });
+    valoresOrdenados.filter(function (v) { return presentes[v]; }).forEach(function (v) {
+      var opt = document.createElement("option");
+      opt.value = v;
+      opt.textContent = v;
+      el.appendChild(opt);
+    });
+  }
+  poblarSelect(elRangoSelect, "rango", RANGO_ORDEN);
+  poblarSelect(elFueroSelect, "fuero", FUERO_ORDEN);
 
   function formatFecha(iso, longForm) {
     var parts = iso.split("-");
@@ -880,6 +912,8 @@ footer {
   function matches(p) {
     if (state.categoria !== "todos" && p.categoria !== state.categoria) return false;
     if (state.provincia && p.provincia !== state.provincia) return false;
+    if (state.rango && p.rango !== state.rango) return false;
+    if (state.fuero && p.fuero !== state.fuero) return false;
     if (state.soloProgramada && !p.audiencia_programada) return false;
     if (state.q) {
       var haystack = (p.candidato + " " + p.cargo + " " + p.expediente + " " + p.provincia + " " + odHaystack(p)).toLowerCase();
@@ -967,8 +1001,6 @@ footer {
     var provinciasOrdenadas = Object.keys(porProvincia)
       .map(function (nombre) { return { nombre: nombre, n: porProvincia[nombre] }; })
       .sort(function (a, b) { return b.n - a.n; });
-    var maxProvincia = provinciasOrdenadas.length ? provinciasOrdenadas[0].n : 1;
-
     var duraciones = [];
     pliegos.forEach(function (p) {
       var t = p.timeline;
@@ -1001,21 +1033,37 @@ footer {
       );
     }).join("");
 
-    var barsHTML = provinciasOrdenadas.map(function (p) {
-      var pct = Math.round((p.n / maxProvincia) * 100);
-      return (
-        '<div class="province-bar-row">' +
-          '<div class="province-bar-name">' + escapeHTML(p.nombre) + '</div>' +
-          '<div class="province-bar-track"><div class="province-bar-fill" style="width:' + pct + '%"></div></div>' +
-          '<div class="province-bar-count">' + p.n + '</div>' +
-        '</div>'
-      );
-    }).join("");
+    function barRowsHTML(items) {
+      var max = items.length ? Math.max.apply(null, items.map(function (i) { return i.n; })) : 1;
+      return items.map(function (it) {
+        var pct = Math.round((it.n / max) * 100);
+        return (
+          '<div class="province-bar-row">' +
+            '<div class="province-bar-name">' + escapeHTML(it.nombre) + '</div>' +
+            '<div class="province-bar-track"><div class="province-bar-fill" style="width:' + pct + '%"></div></div>' +
+            '<div class="province-bar-count">' + it.n + '</div>' +
+          '</div>'
+        );
+      }).join("");
+    }
+
+    function countsByOrder(campo, orden) {
+      var counts = {};
+      pliegos.forEach(function (p) { counts[p[campo]] = (counts[p[campo]] || 0) + 1; });
+      return orden.filter(function (v) { return counts[v]; }).map(function (v) { return { nombre: v, n: counts[v] }; });
+    }
+
+    var rangoItems = countsByOrder("rango", RANGO_ORDEN);
+    var fueroItems = countsByOrder("fuero", FUERO_ORDEN);
 
     elStatsPanel.innerHTML =
       '<div class="stats-grid">' + cardsHTML + '</div>' +
       '<p class="stats-section-title">Pliegos por jurisdicción</p>' +
-      '<div class="province-bars">' + barsHTML + '</div>';
+      '<div class="province-bars">' + barRowsHTML(provinciasOrdenadas) + '</div>' +
+      '<p class="stats-section-title" style="margin-top:24px;">Pliegos por rango</p>' +
+      '<div class="province-bars">' + barRowsHTML(rangoItems) + '</div>' +
+      '<p class="stats-section-title" style="margin-top:24px;">Pliegos por fuero</p>' +
+      '<div class="province-bars">' + barRowsHTML(fueroItems) + '</div>';
   }
 
   // --- Modal ---
@@ -1143,16 +1191,28 @@ footer {
     state.provincia = elProvinciaSelect.value;
     renderGrid();
   });
+  elRangoSelect.addEventListener("change", function () {
+    state.rango = elRangoSelect.value;
+    renderGrid();
+  });
+  elFueroSelect.addEventListener("change", function () {
+    state.fuero = elFueroSelect.value;
+    renderGrid();
+  });
   elToggleProgramada.addEventListener("change", function () {
     state.soloProgramada = elToggleProgramada.checked;
     renderGrid();
   });
   elBtnClearFilters.addEventListener("click", function () {
     state.provincia = "";
+    state.rango = "";
+    state.fuero = "";
     state.q = "";
     state.soloProgramada = false;
     elSearch.value = "";
     elProvinciaSelect.value = "";
+    elRangoSelect.value = "";
+    elFueroSelect.value = "";
     elToggleProgramada.checked = false;
     renderGrid();
   });
