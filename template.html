@@ -720,7 +720,7 @@ footer {
     <select id="provincia-select" aria-label="Filtrar por jurisdicción">
       <option value="">Todas las jurisdicciones</option>
     </select>
-    <label class="toggle">
+    <label class="toggle" id="toggle-programada-wrap">
       <input type="checkbox" id="toggle-programada" />
       <span class="switch" aria-hidden="true"></span>
       Solo con audiencia programada
@@ -802,6 +802,7 @@ footer {
   var elSearch = document.getElementById("search");
   var elProvinciaSelect = document.getElementById("provincia-select");
   var elToggleProgramada = document.getElementById("toggle-programada");
+  var elToggleProgramadaWrap = document.getElementById("toggle-programada-wrap");
   var elStatTotal = document.getElementById("stat-total");
   var elGeneradoAl = document.getElementById("generado-al");
   var elStatsPanel = document.getElementById("stats-panel");
@@ -844,6 +845,10 @@ footer {
       btn.innerHTML = cat.label + (cat.noCount ? "" : ' <span class="count">' + c[cat.key] + "</span>");
       btn.addEventListener("click", function () {
         state.categoria = cat.key;
+        if (cat.key !== "sin_audiencia") {
+          state.soloProgramada = false;
+          elToggleProgramada.checked = false;
+        }
         renderTabs();
         renderView();
       });
@@ -854,6 +859,7 @@ footer {
   function renderView() {
     var isStats = state.categoria === "stats";
     document.querySelector(".filter-row").style.display = isStats ? "none" : "flex";
+    elToggleProgramadaWrap.style.display = (!isStats && state.categoria === "sin_audiencia") ? "flex" : "none";
     elResultCount.style.display = isStats ? "none" : "block";
     elGrid.style.display = isStats ? "none" : "grid";
     elStatsPanel.style.display = isStats ? "block" : "none";
