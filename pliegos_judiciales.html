@@ -2,6 +2,7 @@
 <html lang="es-AR" data-theme="light">
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Pliegos del Poder Judicial en trámite — Senado</title>
 <style>
 @font-face {
@@ -373,18 +374,7 @@ main {
   overflow: hidden;
 }
 .card-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
   margin-top: auto;
-}
-.provincia-tag {
-  font-size: 12px;
-  color: var(--ink-soft);
-  display: flex;
-  align-items: center;
-  gap: 4px;
 }
 .badge-audiencia {
   display: inline-flex;
@@ -430,92 +420,6 @@ main {
 .excluidos-note summary { cursor: pointer; font-weight: 600; color: var(--ink); }
 .excluidos-note ul { margin: 10px 0 0; padding-left: 18px; }
 .excluidos-note li { margin-bottom: 4px; }
-
-/* Estadísticas */
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 12px;
-  margin-bottom: 28px;
-}
-.stat-card {
-  background: var(--surface);
-  border: 1px solid var(--line-soft);
-  border-radius: 14px;
-  padding: 16px 18px;
-  box-shadow: var(--shadow);
-}
-.stat-card .stat-value {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--ink);
-}
-.stat-card .stat-value small {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--ink-soft);
-}
-.stat-card .stat-label {
-  font-size: 12px;
-  color: var(--ink-soft);
-  margin-top: 4px;
-  font-weight: 600;
-}
-.stat-card.accent-pendiente .stat-value { color: var(--state-pendiente); }
-.stat-card.accent-comision .stat-value { color: var(--state-comision); }
-.stat-card.accent-od .stat-value { color: var(--state-od); }
-.stat-card.accent-sancion .stat-value { color: var(--state-sancion); }
-.stat-card.accent-live .stat-value { color: var(--badge-live); }
-
-.stats-section-title {
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--ink-soft);
-  margin: 0 0 12px;
-}
-.province-bars {
-  background: var(--surface);
-  border: 1px solid var(--line-soft);
-  border-radius: 14px;
-  padding: 18px 20px;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.province-bar-row {
-  display: grid;
-  grid-template-columns: 140px 1fr 40px;
-  align-items: center;
-  gap: 10px;
-  font-size: 13px;
-}
-.province-bar-name {
-  color: var(--ink);
-  font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.province-bar-track {
-  background: var(--surface-alt);
-  border-radius: 999px;
-  height: 10px;
-  overflow: hidden;
-}
-.province-bar-fill {
-  background: linear-gradient(90deg, var(--accent-light), var(--accent));
-  height: 100%;
-  border-radius: 999px;
-}
-.province-bar-count {
-  text-align: right;
-  color: var(--ink-soft);
-  font-weight: 700;
-}
 
 /* Modal */
 .modal-overlay {
@@ -642,6 +546,43 @@ footer {
   color: var(--ink-soft);
   font-size: 12px;
 }
+
+@media (max-width: 640px) {
+  .topbar { padding: 16px 16px; }
+  .topbar-inner { align-items: flex-start; gap: 10px; }
+  .topbar .stat { text-align: left; }
+  .topbar .stat .n { font-size: 24px; }
+
+  .controls { padding: 14px 16px 0; gap: 10px; }
+  .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: none; padding: 8px 12px 10px; font-size: 13px; }
+
+  .filter-row { flex-direction: column; align-items: stretch; gap: 8px; }
+  .search-wrap { flex-basis: auto; min-width: 0; }
+  .toggle, .btn-clear { justify-content: center; }
+
+  main { padding: 16px 16px 40px; }
+  .grid { grid-template-columns: 1fr; gap: 10px; }
+  .card { padding: 14px; }
+
+  .modal-overlay { padding: 0; align-items: stretch; }
+  .modal {
+    max-width: none;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-overlay.open .modal { transform: none; }
+  .modal-body { flex: 1; }
+}
 </style>
 </head>
 <body>
@@ -665,11 +606,8 @@ footer {
   <div class="filter-row">
     <div class="search-wrap">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="search" id="search" placeholder="Buscar por nombre, cargo o expediente…" aria-label="Buscar" />
+      <input type="search" id="search" placeholder="Buscar por nombre, cargo, N° de expediente o N° de OD…" aria-label="Buscar" />
     </div>
-    <select id="provincia-select" aria-label="Filtrar por provincia">
-      <option value="">Todas las provincias</option>
-    </select>
     <label class="toggle">
       <input type="checkbox" id="toggle-programada" />
       <span class="switch" aria-hidden="true"></span>
@@ -689,7 +627,6 @@ footer {
     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
     <p>No hay pliegos que coincidan con estos filtros.</p>
   </div>
-  <div id="stats-panel" style="display:none;"></div>
 </main>
 
 <footer>
@@ -731,8 +668,7 @@ footer {
     { key: "dar_cuenta", label: "Para dar cuenta" },
     { key: "sin_audiencia", label: "En comisión" },
     { key: "con_od", label: "Con Orden del Día" },
-    { key: "sancionado", label: "Sancionado" },
-    { key: "stats", label: "📊 Estadísticas", noCount: true }
+    { key: "sancionado", label: "Sancionado" }
   ];
   var PILL_META = {
     dar_cuenta: { cls: "pendiente", label: "Para dar cuenta" },
@@ -741,31 +677,22 @@ footer {
     sancionado: { cls: "sancion", label: "Sancionado" }
   };
 
-  var state = { categoria: "todos", provincia: "", q: "", soloProgramada: false };
+  var state = { categoria: "todos", q: "", soloProgramada: false };
 
   var elTabs = document.getElementById("tabs");
   var elGrid = document.getElementById("grid");
   var elEmpty = document.getElementById("empty-state");
   var elResultCount = document.getElementById("result-count");
   var elSearch = document.getElementById("search");
-  var elProvinciaSelect = document.getElementById("provincia-select");
   var elToggleProgramada = document.getElementById("toggle-programada");
   var elStatTotal = document.getElementById("stat-total");
   var elGeneradoAl = document.getElementById("generado-al");
-  var elStatsPanel = document.getElementById("stats-panel");
   var elBtnClearFilters = document.getElementById("btn-clear-filters");
 
   elStatTotal.textContent = DATA.total;
   if (DATA.generado_al) {
     elGeneradoAl.textContent = "Datos al " + formatFecha(DATA.generado_al, true);
   }
-
-  DATA.provincias.forEach(function (p) {
-    var opt = document.createElement("option");
-    opt.value = p;
-    opt.textContent = p;
-    elProvinciaSelect.appendChild(opt);
-  });
 
   function formatFecha(iso, longForm) {
     var parts = iso.split("-");
@@ -800,25 +727,20 @@ footer {
   }
 
   function renderView() {
-    var isStats = state.categoria === "stats";
-    document.querySelector(".filter-row").style.display = isStats ? "none" : "flex";
-    elResultCount.style.display = isStats ? "none" : "block";
-    elGrid.style.display = isStats ? "none" : "grid";
-    elStatsPanel.style.display = isStats ? "block" : "none";
-    if (isStats) {
-      elEmpty.style.display = "none";
-      renderStats();
-    } else {
-      renderGrid();
-    }
+    renderGrid();
+  }
+
+  function odHaystack(p) {
+    var od = p.timeline && p.timeline.orden_del_dia;
+    if (!od) return "";
+    return "od " + od.numero + " " + od.numero + "/" + od.anio;
   }
 
   function matches(p) {
     if (state.categoria !== "todos" && p.categoria !== state.categoria) return false;
-    if (state.provincia && p.provincia !== state.provincia) return false;
     if (state.soloProgramada && !p.audiencia_programada) return false;
     if (state.q) {
-      var haystack = (p.candidato + " " + p.cargo + " " + p.expediente + " " + p.provincia).toLowerCase();
+      var haystack = (p.candidato + " " + p.cargo + " " + p.expediente + " " + p.provincia + " " + odHaystack(p)).toLowerCase();
       if (haystack.indexOf(state.q) === -1) return false;
     }
     return true;
@@ -843,10 +765,7 @@ footer {
           '<div class="candidato">' + escapeHTML(p.candidato) + '</div>' +
           '<div class="cargo">' + escapeHTML(p.cargo) + '</div>' +
         '</div>' +
-        '<div class="card-bottom">' +
-          '<span class="provincia-tag">' + escapeHTML(p.provincia) + '</span>' +
-        '</div>' +
-        (badge ? '<div>' + badge + '</div>' : '') +
+        (badge ? '<div class="card-bottom">' + badge + '</div>' : '') +
       '</button>'
     );
   }
@@ -874,78 +793,6 @@ footer {
         openModal(card.getAttribute("data-expediente"));
       });
     });
-  }
-
-  // --- Estadísticas ---
-  function diffDias(desde, hasta) {
-    var pd = desde.split("/"), ph = hasta.split("/");
-    var d1 = Date.UTC(+pd[2], +pd[1] - 1, +pd[0]);
-    var d2 = Date.UTC(+ph[2], +ph[1] - 1, +ph[0]);
-    return Math.round((d2 - d1) / 86400000);
-  }
-
-  function renderStats() {
-    var c = counts();
-    var total = c.todos || 1;
-    var pctSancion = Math.round((c.sancionado / total) * 100);
-
-    var conProgramada = pliegos.filter(function (p) { return p.audiencia_programada; }).length;
-
-    var porProvincia = {};
-    pliegos.forEach(function (p) {
-      porProvincia[p.provincia] = (porProvincia[p.provincia] || 0) + 1;
-    });
-    var provinciasOrdenadas = Object.keys(porProvincia)
-      .map(function (nombre) { return { nombre: nombre, n: porProvincia[nombre] }; })
-      .sort(function (a, b) { return b.n - a.n; });
-    var maxProvincia = provinciasOrdenadas.length ? provinciasOrdenadas[0].n : 1;
-
-    var duraciones = [];
-    pliegos.forEach(function (p) {
-      var t = p.timeline;
-      if (t.ingreso && t.sancion) duraciones.push(diffDias(t.ingreso, t.sancion));
-    });
-    var duracionPromedio = duraciones.length
-      ? Math.round(duraciones.reduce(function (a, b) { return a + b; }, 0) / duraciones.length)
-      : null;
-
-    var cards = [
-      { value: total, label: "Total de pliegos judiciales", cls: "" },
-      { value: c.sancionado, small: pctSancion + "%", label: "Sancionados (aprobados)", cls: "accent-sancion" },
-      { value: c.dar_cuenta, label: "Para dar cuenta en el recinto", cls: "accent-pendiente" },
-      { value: c.con_od, label: "Con Orden del Día emitido", cls: "accent-od" },
-      { value: c.sin_audiencia, label: "En comisión, sin audiencia", cls: "accent-comision" },
-      { value: conProgramada, label: "Con audiencia pública programada", cls: "accent-live" },
-      { value: provinciasOrdenadas.length, label: "Provincias representadas", cls: "" }
-    ];
-    if (duracionPromedio !== null) {
-      cards.push({ value: duracionPromedio, small: "días", label: "Trámite promedio: ingreso → sanción", cls: "" });
-    }
-
-    var cardsHTML = cards.map(function (s) {
-      return (
-        '<div class="stat-card ' + s.cls + '">' +
-          '<div class="stat-value">' + s.value + (s.small ? ' <small>' + s.small + '</small>' : '') + '</div>' +
-          '<div class="stat-label">' + s.label + '</div>' +
-        '</div>'
-      );
-    }).join("");
-
-    var barsHTML = provinciasOrdenadas.map(function (p) {
-      var pct = Math.round((p.n / maxProvincia) * 100);
-      return (
-        '<div class="province-bar-row">' +
-          '<div class="province-bar-name">' + escapeHTML(p.nombre) + '</div>' +
-          '<div class="province-bar-track"><div class="province-bar-fill" style="width:' + pct + '%"></div></div>' +
-          '<div class="province-bar-count">' + p.n + '</div>' +
-        '</div>'
-      );
-    }).join("");
-
-    elStatsPanel.innerHTML =
-      '<div class="stats-grid">' + cardsHTML + '</div>' +
-      '<p class="stats-section-title">Pliegos por provincia</p>' +
-      '<div class="province-bars">' + barsHTML + '</div>';
   }
 
   // --- Modal ---
@@ -1061,20 +908,14 @@ footer {
       renderGrid();
     }, 120);
   });
-  elProvinciaSelect.addEventListener("change", function () {
-    state.provincia = elProvinciaSelect.value;
-    renderGrid();
-  });
   elToggleProgramada.addEventListener("change", function () {
     state.soloProgramada = elToggleProgramada.checked;
     renderGrid();
   });
   elBtnClearFilters.addEventListener("click", function () {
-    state.provincia = "";
     state.q = "";
     state.soloProgramada = false;
     elSearch.value = "";
-    elProvinciaSelect.value = "";
     elToggleProgramada.checked = false;
     renderGrid();
   });
