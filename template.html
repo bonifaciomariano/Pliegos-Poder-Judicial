@@ -748,6 +748,11 @@ footer {
 
   function cardHTML(p) {
     var meta = PILL_META[p.categoria];
+    var pillLabel = meta.label;
+    if (p.categoria === "con_od" && p.timeline && p.timeline.orden_del_dia && p.timeline.orden_del_dia.numero) {
+      var od = p.timeline.orden_del_dia;
+      pillLabel = "OD " + od.numero + (od.anio ? "/" + String(od.anio).slice(-2) : "");
+    }
     var badge = "";
     if (p.audiencia_programada) {
       var ap = p.audiencia_programada;
@@ -759,7 +764,7 @@ footer {
       '<button class="card" data-expediente="' + p.expediente + '">' +
         '<div class="card-top">' +
           '<span class="expediente">' + p.expediente + '</span>' +
-          '<span class="pill ' + meta.cls + '">' + meta.label + '</span>' +
+          '<span class="pill ' + meta.cls + '">' + escapeHTML(pillLabel) + '</span>' +
         '</div>' +
         '<div>' +
           '<div class="candidato">' + escapeHTML(p.candidato) + '</div>' +
@@ -828,9 +833,16 @@ footer {
       done: !!t.audiencia
     });
 
+    var odValue = "Sin emitir";
+    if (t.orden_del_dia) {
+      odValue = "N° " + t.orden_del_dia.numero + "/" + String(t.orden_del_dia.anio).slice(-2);
+      if (t.orden_del_dia.fecha_dictamen) {
+        odValue += " · (" + t.orden_del_dia.fecha_dictamen.replace(/\/(\d{4})$/, function (m, y) { return "/" + y.slice(-2); }) + ")";
+      }
+    }
     steps.push({
       label: "Orden del Día",
-      value: t.orden_del_dia ? "N° " + t.orden_del_dia.numero + "/" + t.orden_del_dia.anio : "Sin emitir",
+      value: odValue,
       done: !!t.orden_del_dia
     });
 

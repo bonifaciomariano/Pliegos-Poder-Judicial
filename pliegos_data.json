@@ -1,5 +1,5 @@
 {
-  "generado_al": "2026-08-19",
+  "generado_al": "2026-08-20",
   "total": 199,
   "provincias": [
     "Buenos Aires",
@@ -511,7 +511,7 @@
       "candidato": "RAMIRO VELASCO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -519,11 +519,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "320",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-232/26",
@@ -531,7 +535,7 @@
       "candidato": "VALERIA ALEJANDRA RICO",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 4 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -539,11 +543,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "319",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-231/26",
@@ -561,7 +569,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "293",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -574,7 +583,7 @@
       "candidato": "SERGIO BUITRAGO",
       "cargo": "JUEZ DEL JUZGADO NACIONAL DE PRIMERA INSTANCIA EN LO CIVIL N° 26 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -582,11 +591,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "318",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-229/26",
@@ -604,7 +617,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "292",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -617,7 +631,7 @@
       "candidato": "SANTIAGO JUAN SCHIOPETTO",
       "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 6 DE LA CAPITAL FEDERAL",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -625,11 +639,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "317",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-222/26",
@@ -637,7 +655,7 @@
       "candidato": "ORNELLA ROMINA RIGGITANO",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 27",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -645,11 +663,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "316",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-221/26",
@@ -657,7 +679,7 @@
       "candidato": "MATIAS EZEQUIEL EIDEM",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, FISCALIA N° 7",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -665,11 +687,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "315",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-220/26",
@@ -707,7 +733,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "306",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -730,7 +757,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "305",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -753,7 +781,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "304",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -776,7 +805,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "303",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -789,7 +819,7 @@
       "candidato": "LEANDRO GASTON",
       "cargo": "DEFENSOR PUBLICO OFICIAL ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL FEDERAL DE LA PLATA, PROV. DE BUENOS AIRES, DEFENSORIA N° 2",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -797,11 +827,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "314",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-214/26",
@@ -809,7 +843,7 @@
       "candidato": "MARIA VIRGINIA MIGUEL CARMONA",
       "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE CATAMARCA, PROV. DE CATAMARCA",
       "provincia": "Catamarca",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -817,11 +851,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "313",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-213/26",
@@ -829,7 +867,7 @@
       "candidato": "MARIA SOLEDAD MANCINI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA A",
       "provincia": "Córdoba",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -837,11 +875,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "312",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-212/26",
@@ -859,7 +901,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "302",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -882,7 +925,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "301",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -905,7 +949,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "300",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -928,7 +973,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "299",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -961,7 +1007,7 @@
       "candidato": "PAULA INES LO GIOIA",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE EL JUZGADO FEDERAL DE PRIMERA INSTANCIA DE DOLORES, PROV. DE BUENOS AIRES",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -969,11 +1015,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "311",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-206/26",
@@ -981,7 +1031,7 @@
       "candidato": "CARLOS NICOLAS ESCANDAR",
       "cargo": "DEFENSOR PUBLICO OFICIAL FEDERAL DEL INTERIOR DEL PAIS CON ASIENTO EN LA CDAD. DE SALTA, PROV. DE SALTA",
       "provincia": "Salta",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -989,11 +1039,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "310",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-205/26",
@@ -1001,7 +1055,7 @@
       "candidato": "FACUNDO CARLOS CORTES",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE CORDOBA, PROV. DE CORDOBA, SALA B",
       "provincia": "Córdoba",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1009,11 +1063,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "309",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-204/26",
@@ -1031,7 +1089,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "298",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -1054,7 +1113,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "297",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -1077,7 +1137,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "296",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -1090,7 +1151,7 @@
       "candidato": "ANDRES GUILLERMO FRAGA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE SAN JUSTO, PROVINCIA DE BUENOS AIRES",
       "provincia": "Buenos Aires",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "04/06/2026",
         "dado_cuenta": {
@@ -1098,11 +1159,15 @@
           "fecha": "16/07/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "308",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-194/26",
@@ -1120,7 +1185,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "295",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -1143,7 +1209,8 @@
         "audiencia": "13/08/2026",
         "orden_del_dia": {
           "numero": "294",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "13/08/2026"
         },
         "sancion": null
       },
@@ -1166,7 +1233,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "219",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1189,7 +1257,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "291",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1212,7 +1281,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "218",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1235,7 +1305,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "217",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1258,7 +1329,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "254",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -1281,7 +1353,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "253",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -1304,7 +1377,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "216",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1327,7 +1401,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "252",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -1350,7 +1425,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "251",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -1373,7 +1449,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "250",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -1396,7 +1473,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "215",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1419,7 +1497,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "290",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1442,7 +1521,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "289",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1465,7 +1545,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "288",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1488,7 +1569,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "270",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -1511,7 +1593,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "214",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1534,7 +1617,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "287",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1557,7 +1641,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "213",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1580,7 +1665,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "212",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1603,7 +1689,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "211",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1626,7 +1713,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "210",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1649,7 +1737,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "286",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -1672,7 +1761,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "269",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -1695,7 +1785,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "268",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -1718,7 +1809,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "208",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1741,7 +1833,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "207",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1764,7 +1857,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "267",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -1787,7 +1881,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "206",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1810,7 +1905,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "266",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -1833,7 +1929,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "205",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1856,7 +1953,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "204",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1879,7 +1977,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "203",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1902,7 +2001,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "202",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1925,7 +2025,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "201",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1948,7 +2049,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "200",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1971,7 +2073,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "129",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -1994,7 +2097,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "128",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2017,7 +2121,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "127",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2040,7 +2145,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "126",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2063,7 +2169,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "125",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2086,7 +2193,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "124",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2109,7 +2217,8 @@
         "audiencia": "09/06/2026",
         "orden_del_dia": {
           "numero": "123",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2132,7 +2241,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "199",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2155,7 +2265,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "249",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2178,7 +2289,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "248",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2201,7 +2313,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "285",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2224,7 +2337,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "265",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2247,7 +2361,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "264",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2270,7 +2385,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "263",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2293,7 +2409,8 @@
         "audiencia": "30/06/2026",
         "orden_del_dia": {
           "numero": "198",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2316,7 +2433,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "247",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2339,7 +2457,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "284",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2362,7 +2481,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "283",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2385,7 +2505,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "262",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2408,7 +2529,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "282",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2431,7 +2553,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "246",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2454,7 +2577,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "261",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2477,7 +2601,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "260",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2500,7 +2625,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "281",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2523,7 +2649,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "280",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2536,7 +2663,7 @@
       "candidato": "GERMAN LUIS ARTOLA",
       "cargo": "DEFENSOR PUBLICO OFICIAL ADJUNTO ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 11",
       "provincia": "CABA",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2544,11 +2671,15 @@
           "fecha": "14/05/2026"
         },
         "audiencia": "18/08/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "307",
+          "anio": "2026",
+          "fecha_dictamen": "19/08/2026"
+        },
         "sancion": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-109/26",
@@ -2566,7 +2697,8 @@
         "audiencia": "12/08/2026",
         "orden_del_dia": {
           "numero": "279",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "12/08/2026"
         },
         "sancion": null
       },
@@ -2589,7 +2721,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "245",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2612,7 +2745,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "244",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2635,7 +2769,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "259",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2658,7 +2793,8 @@
         "audiencia": "01/07/2026",
         "orden_del_dia": {
           "numero": "209",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "16/07/2026"
       },
@@ -2681,7 +2817,8 @@
         "audiencia": "04/08/2026",
         "orden_del_dia": {
           "numero": "243",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "05/08/2026"
         },
         "sancion": null
       },
@@ -2704,7 +2841,8 @@
         "audiencia": "05/08/2026",
         "orden_del_dia": {
           "numero": "258",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": "06/08/2026"
         },
         "sancion": null
       },
@@ -2727,7 +2865,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "101",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2750,7 +2889,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "100",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2793,7 +2933,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "99",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2816,7 +2957,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "98",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2839,7 +2981,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "97",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2862,7 +3005,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "96",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2885,7 +3029,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "95",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2908,7 +3053,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "87",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2931,7 +3077,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "86",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2954,7 +3101,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "85",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -2977,7 +3125,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "84",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3000,7 +3149,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "94",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3023,7 +3173,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "93",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3046,7 +3197,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "83",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3069,7 +3221,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "82",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3092,7 +3245,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "58",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3115,7 +3269,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "81",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3138,7 +3293,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "57",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3161,7 +3317,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "92",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3184,7 +3341,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "80",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3207,7 +3365,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "79",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3230,7 +3389,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "78",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3253,7 +3413,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "77",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3276,7 +3437,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "76",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3299,7 +3461,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "91",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3322,7 +3485,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "75",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3345,7 +3509,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "74",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3368,7 +3533,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "73",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3391,7 +3557,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "72",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3414,7 +3581,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "71",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3437,7 +3605,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "70",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3460,7 +3629,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "69",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3483,7 +3653,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "90",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3506,7 +3677,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "68",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3529,7 +3701,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "67",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3552,7 +3725,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "56",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3575,7 +3749,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "66",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3598,7 +3773,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "65",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3621,7 +3797,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "64",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3644,7 +3821,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "55",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3667,7 +3845,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "54",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3690,7 +3869,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "53",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3713,7 +3893,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "52",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3736,7 +3917,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "51",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3759,7 +3941,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "50",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3782,7 +3965,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "89",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3805,7 +3989,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "49",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3828,7 +4013,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "48",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3851,7 +4037,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "47",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3874,7 +4061,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "46",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3897,7 +4085,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "45",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3920,7 +4109,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "44",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3943,7 +4133,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "43",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -3986,7 +4177,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "63",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4029,7 +4221,8 @@
         "audiencia": "14/05/2026",
         "orden_del_dia": {
           "numero": "88",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4052,7 +4245,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "42",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4075,7 +4269,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "41",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4098,7 +4293,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "112",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4121,7 +4317,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "62",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4144,7 +4341,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "40",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4167,7 +4365,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "39",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4190,7 +4389,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "61",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4213,7 +4413,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "38",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4236,7 +4437,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "37",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4259,7 +4461,8 @@
         "audiencia": "13/05/2026",
         "orden_del_dia": {
           "numero": "60",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4282,7 +4485,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "36",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4305,7 +4509,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "35",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4328,7 +4533,8 @@
         "audiencia": "06/05/2026",
         "orden_del_dia": {
           "numero": "34",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4351,7 +4557,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "33",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4374,7 +4581,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "32",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4397,7 +4605,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "31",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4420,7 +4629,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "30",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4443,7 +4653,8 @@
         "audiencia": "07/05/2026",
         "orden_del_dia": {
           "numero": "59",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },
@@ -4466,7 +4677,8 @@
         "audiencia": "30/04/2026",
         "orden_del_dia": {
           "numero": "29",
-          "anio": "2026"
+          "anio": "2026",
+          "fecha_dictamen": null
         },
         "sancion": "04/06/2026"
       },

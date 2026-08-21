@@ -270,8 +270,10 @@ def load_dar_cuenta_csv(csv_path):
 
 
 def _fila_a_od(fila):
-    """fila: dict con las claves 'Sobre los expedientes'/'Número'/'Periodo'/'Fecha Dictamen'."""
-    m = re.match(r'PE-(\d+)/(\d{2})', (fila.get("Sobre los expedientes") or "").strip(), re.IGNORECASE)
+    """fila: dict con las claves 'Sobre los expedientes'/'Número'/'Periodo'/'Fecha Dictamen'.
+    Solo expedientes PE-xxx/yy-AC (acuerdos): la planilla de OD también trae
+    proyectos de ley (-PL) y otros que reusan la misma numeración PE-xxx/yy."""
+    m = re.match(r'PE-(\d+)/(\d{2})-AC\b', (fila.get("Sobre los expedientes") or "").strip(), re.IGNORECASE)
     if not m:
         return None, None
     expediente = f"PE-{m.group(1)}/{m.group(2)}"
@@ -394,6 +396,9 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
             # la planilla madre todavía no tiene esta OD -> se usa la carga manual
             od_nro = nuevas_od[expediente]["numero"]
             od_anio = nuevas_od[expediente]["anio"]
+        # la planilla madre no guarda la fecha de dictamen de la OD; se toma
+        # de las exportaciones sueltas en nuevas_od/ (se van acumulando ahí)
+        od_fecha_dictamen = nuevas_od.get(expediente, {}).get("fecha_dictamen")
 
         fecha_sancion = parse_sancion_field(row[col["SANCIONES/SITUACIÓN EXP"]].value)
 
@@ -429,7 +434,10 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
                     "fecha": fecha_dado_cuenta,
                 },
                 "audiencia": fecha_audiencia if categoria != "dar_cuenta" else None,
-                "orden_del_dia": {"numero": od_nro, "anio": od_anio} if od_nro else None,
+                "orden_del_dia": (
+                    {"numero": od_nro, "anio": od_anio, "fecha_dictamen": od_fecha_dictamen}
+                    if od_nro else None
+                ),
                 "sancion": fecha_sancion,
             },
             "audiencia_programada": programada,
@@ -519,6 +527,16 @@ def main():
         print()
     print(f"Audiencias realizadas detectadas (md): {log['audiencias_realizadas_detectadas']}")
     print(f"Audiencias programadas detectadas (boletín pdf): {log['audiencias_programadas_detectadas']}")
+
+    sin_fecha_dictamen = [
+        p["expediente"] for p in resultado["pliegos"]
+        if p["categoria"] == "con_od" and not p["timeline"]["orden_del_dia"]["fecha_dictamen"]
+    ]
+    if sin_fecha_dictamen:
+        print()
+        print("--- AVISO: con Orden del Día pero sin fecha de dictamen (no está en nuevas_od/) ---")
+        for exp in sin_fecha_dictamen:
+            print(f"  {exp}")
 
 
 if __name__ == "__main__":
