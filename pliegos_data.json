@@ -1,6 +1,6 @@
 {
-  "generado_al": "2026-08-20",
-  "total": 199,
+  "generado_al": "2026-08-21",
+  "total": 212,
   "provincias": [
     "Buenos Aires",
     "CABA",
@@ -19,6 +19,7 @@
     "Río Negro",
     "Salta",
     "San Juan",
+    "San Luis",
     "Santa Cruz",
     "Santa Fe",
     "Santiago del Estero",
@@ -40,7 +41,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -60,7 +62,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -80,7 +83,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -100,7 +104,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -120,7 +125,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -140,7 +146,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -160,7 +167,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -180,7 +188,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -200,7 +209,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -220,7 +230,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -240,7 +251,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -260,7 +272,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -280,7 +293,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -300,7 +314,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -320,7 +335,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -340,7 +356,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -360,7 +377,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -380,7 +398,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -400,7 +419,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -420,7 +440,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -440,7 +461,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -460,7 +482,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -480,7 +503,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -500,7 +524,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -524,7 +549,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -548,7 +574,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -572,7 +599,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -596,7 +624,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -620,7 +649,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -644,7 +674,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -668,7 +699,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -692,7 +724,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -712,7 +745,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -736,7 +770,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -760,7 +795,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -784,7 +820,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -808,7 +845,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -832,7 +870,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -856,7 +895,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -880,7 +920,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -904,7 +945,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -928,7 +970,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -952,7 +995,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -976,7 +1020,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -996,7 +1041,8 @@
         },
         "audiencia": null,
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1020,7 +1066,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1044,7 +1091,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1068,7 +1116,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1092,7 +1141,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1116,7 +1166,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1140,7 +1191,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1164,7 +1216,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1188,7 +1241,29 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-192/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/192.26/PE/AC",
+      "candidato": "MARIA VERONICA MICHELLI",
+      "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL N° 3 DE LA PLATA, PROVINCIA DE BUENOS AIRES",
+      "provincia": "Buenos Aires",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "27/05/2026",
+        "dado_cuenta": {
+          "sesion": "20",
+          "fecha": "04/06/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1212,7 +1287,8 @@
           "anio": "2026",
           "fecha_dictamen": "13/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1236,7 +1312,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1260,7 +1337,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1284,7 +1362,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1308,7 +1387,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1332,7 +1412,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1356,7 +1437,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1380,7 +1462,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1404,7 +1487,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1428,7 +1512,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1452,7 +1537,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1476,7 +1562,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1500,7 +1587,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1524,7 +1612,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1548,7 +1637,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1572,7 +1662,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1596,7 +1687,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1620,7 +1712,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1644,7 +1737,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1668,7 +1762,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1692,7 +1787,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1716,7 +1812,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1740,7 +1837,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1764,7 +1862,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1788,7 +1887,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1812,7 +1912,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1836,7 +1937,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1860,7 +1962,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1884,7 +1987,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1908,7 +2012,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1932,7 +2037,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1956,7 +2062,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -1980,7 +2087,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2004,7 +2112,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2028,7 +2137,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2052,7 +2162,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2076,7 +2187,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2100,7 +2212,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2124,7 +2237,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2148,7 +2262,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2172,7 +2287,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2196,7 +2312,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2220,7 +2337,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2244,7 +2362,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2268,7 +2387,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2292,7 +2412,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2316,7 +2437,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2340,7 +2462,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2364,7 +2487,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2388,7 +2512,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2412,7 +2537,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2436,7 +2562,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2460,7 +2587,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2484,7 +2612,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2508,7 +2637,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2532,7 +2662,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2556,7 +2687,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2580,7 +2712,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2604,7 +2737,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2628,7 +2762,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2652,7 +2787,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2676,7 +2812,8 @@
           "anio": "2026",
           "fecha_dictamen": "19/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2700,7 +2837,8 @@
           "anio": "2026",
           "fecha_dictamen": "12/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2724,7 +2862,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2748,7 +2887,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2772,7 +2912,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2796,7 +2937,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "16/07/2026"
+        "sancion": "16/07/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2820,7 +2962,8 @@
           "anio": "2026",
           "fecha_dictamen": "05/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2844,7 +2987,8 @@
           "anio": "2026",
           "fecha_dictamen": "06/08/2026"
         },
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2868,7 +3012,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2892,7 +3037,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2912,7 +3058,8 @@
         },
         "audiencia": "14/05/2026",
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": true
@@ -2936,7 +3083,29 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-89/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/89.26/PE/AC",
+      "candidato": "Asignación de salas y vocalías",
+      "cargo": "MENSAJE N° 99/26 QUE ASIGNA SALAS Y VOCALIAS A MENSAJES REMITIDOS SOLICITANDO ACUERDO PARA DESIGNAR A MAGISTRADOS JUDICIALES.",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "09/04/2026",
+        "dado_cuenta": {
+          "sesion": "10",
+          "fecha": "09/04/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2960,7 +3129,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -2984,7 +3154,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3008,7 +3179,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3032,7 +3204,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3056,7 +3229,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3080,7 +3254,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3104,7 +3279,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3128,7 +3304,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3152,7 +3329,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3176,7 +3354,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3200,7 +3379,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3224,7 +3404,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3248,7 +3429,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3272,7 +3454,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3296,7 +3479,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3320,7 +3504,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3344,7 +3529,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3368,7 +3554,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3392,7 +3579,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3416,7 +3604,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3440,7 +3629,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3464,7 +3654,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3488,7 +3679,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3512,7 +3704,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3536,7 +3729,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3560,7 +3754,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3584,7 +3779,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3608,7 +3804,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3632,7 +3829,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3656,7 +3854,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3680,7 +3879,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3704,7 +3904,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3728,7 +3929,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3752,7 +3954,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3776,7 +3979,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3800,7 +4004,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3824,7 +4029,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3848,7 +4054,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3872,7 +4079,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3896,7 +4104,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3920,7 +4129,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3944,7 +4154,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3968,7 +4179,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -3992,7 +4204,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4016,7 +4229,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4040,7 +4254,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4064,7 +4279,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4088,7 +4304,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4112,7 +4329,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4136,7 +4354,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4156,7 +4375,8 @@
         },
         "audiencia": "06/05/2026",
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": true
@@ -4180,7 +4400,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4200,7 +4421,8 @@
         },
         "audiencia": "06/05/2026",
         "orden_del_dia": null,
-        "sancion": null
+        "sancion": null,
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": true
@@ -4224,7 +4446,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4248,7 +4471,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4272,7 +4496,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4296,7 +4521,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4320,7 +4546,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4344,7 +4571,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4368,7 +4596,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4392,7 +4621,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4416,7 +4646,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4440,7 +4671,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4464,7 +4696,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4488,7 +4721,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4512,7 +4746,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4536,7 +4771,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4560,7 +4796,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4584,7 +4821,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4608,7 +4846,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4632,7 +4871,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4656,7 +4896,8 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -4680,7 +4921,263 @@
           "anio": "2026",
           "fecha_dictamen": null
         },
-        "sancion": "04/06/2026"
+        "sancion": "04/06/2026",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-176/25",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/176.25/PE/AC",
+      "candidato": "CARLOS ALBERTO MAHIQUES",
+      "cargo": "VOCAL DE LA CAMARA FEDERAL DE CASACION PENAL, VOCALIA VII",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "04/02/2026",
+        "dado_cuenta": {
+          "sesion": "9",
+          "fecha": "18/03/2026"
+        },
+        "audiencia": "16/04/2026",
+        "orden_del_dia": {
+          "numero": "17",
+          "anio": "2026",
+          "fecha_dictamen": null
+        },
+        "sancion": "14/05/2026",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-114/25",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/114.25/PE/AC",
+      "candidato": "MIRTA DELIA TYDEN",
+      "cargo": "VOCAL DE LA CAMARA FEDERAL DE APELACIONES DE POSADAS, PROV. DE MISIONES",
+      "provincia": "Misiones",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "26/08/2025",
+        "dado_cuenta": {
+          "sesion": "4",
+          "fecha": "04/09/2025"
+        },
+        "audiencia": "25/09/2025",
+        "orden_del_dia": {
+          "numero": "575",
+          "anio": "2025",
+          "fecha_dictamen": null
+        },
+        "sancion": "02/10/2025",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-124/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/124.24/PE/AC",
+      "candidato": "RAUL ALBERTO FOURCADE",
+      "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL FEDERAL DE SAN LUIS, PROV. DE SAN LUIS",
+      "provincia": "San Luis",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "14/11/2024",
+        "dado_cuenta": {
+          "sesion": "16",
+          "fecha": "20/02/2025"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-78/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/78.24/PE/AC",
+      "candidato": "ROBERTO ENRIQUE HORNOS",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO DE LA CAPITAL FEDERAL, SALA B",
+      "provincia": "CABA",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "02/08/2024",
+        "dado_cuenta": {
+          "sesion": "13",
+          "fecha": "22/08/2024"
+        },
+        "audiencia": "18/09/2024",
+        "orden_del_dia": {
+          "numero": "152",
+          "anio": "2024",
+          "fecha_dictamen": null
+        },
+        "sancion": "26/09/2024",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-77/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/77.24/PE/AC",
+      "candidato": "JORGE EDUARDO MORAN",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CONTENCIOSO ADMINISTRATIVO FEDERAL DE LA CAPITAL FEDERAL, SALA IV",
+      "provincia": "CABA",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "02/08/2024",
+        "dado_cuenta": {
+          "sesion": "13",
+          "fecha": "22/08/2024"
+        },
+        "audiencia": "18/09/2024",
+        "orden_del_dia": {
+          "numero": "151",
+          "anio": "2024",
+          "fecha_dictamen": null
+        },
+        "sancion": "26/09/2024",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-37/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/37.24/PE/AC",
+      "candidato": "ARIEL OSCAR LIJO",
+      "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "rechazado",
+      "timeline": {
+        "ingreso": "28/05/2024",
+        "dado_cuenta": {
+          "sesion": "7",
+          "fecha": "12/06/2024"
+        },
+        "audiencia": "12/02/2025",
+        "orden_del_dia": {
+          "numero": "592",
+          "anio": "2024",
+          "fecha_dictamen": null
+        },
+        "sancion": null,
+        "rechazo": "03/04/2025"
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-36/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/36.24/PE/AC",
+      "candidato": "MANUEL JOSE GARCIA MANSILLA",
+      "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "rechazado",
+      "timeline": {
+        "ingreso": "28/05/2024",
+        "dado_cuenta": {
+          "sesion": "7",
+          "fecha": "12/06/2024"
+        },
+        "audiencia": "13/03/2025",
+        "orden_del_dia": {
+          "numero": "6",
+          "anio": "2025",
+          "fecha_dictamen": null
+        },
+        "sancion": null,
+        "rechazo": "03/04/2025"
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-218/23",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/218.23/PE/AC",
+      "candidato": "CARLOS MANUEL GRECCO",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CONTENCIOSO ADMINISTRATIVO FEDERAL DE LA CAPITAL FEDERAL, SALA III",
+      "provincia": "CABA",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "31/01/2024",
+        "dado_cuenta": {
+          "sesion": "15",
+          "fecha": "14/03/2024"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-199/23",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/199.23/PE/AC",
+      "candidato": "Retiro de mensaje(s) de designación",
+      "cargo": "MENSAJE N° 8/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES QUE SOLICITARAN ACUERDOS PARA DESIGNAR FUNCIONARIOS Y FUNCIONARIAS DEL PODER JUDICIAL DE LA NACIÓN. (REF. P.E. 158, 159, 160 Y 168/23)",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "29/12/2023",
+        "dado_cuenta": {
+          "sesion": "11",
+          "fecha": "14/03/2024"
+        },
+        "audiencia": "14/03/2024",
+        "orden_del_dia": null,
+        "sancion": "14/03/2024",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-186/23",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/186.23/PE/AC",
+      "candidato": "Retiro de mensaje(s) de designación",
+      "cargo": "MENSAJE N° 2/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES POR LOS CUALES SE SOLICITARA ACUERDOS PARA DESIGNAR FUNCIONARIOS DEL PODER JUDICIAL DE LA NACIÓN, DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN Y DEL MINISTERIO PÚBLICO DE LA DEFENSA DE LA NACIÓN.",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "12/12/2023",
+        "dado_cuenta": {
+          "sesion": "9",
+          "fecha": "14/03/2024"
+        },
+        "audiencia": "14/03/2024",
+        "orden_del_dia": null,
+        "sancion": "14/03/2024",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-185/23",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/185.23/PE/AC",
+      "candidato": "DANIEL EDUARDO RAFECAS",
+      "cargo": "PROCURADOR GENERAL DE LA NACIÓN",
+      "provincia": "Nacional / Múltiple",
+      "categoria": "sancionado",
+      "timeline": {
+        "ingreso": "12/12/2023",
+        "dado_cuenta": {
+          "sesion": "9",
+          "fecha": "14/03/2024"
+        },
+        "audiencia": "14/03/2024",
+        "orden_del_dia": null,
+        "sancion": "14/03/2024",
+        "rechazo": null
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false

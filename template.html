@@ -49,6 +49,8 @@
   --state-od-bg: #ede7f6;
   --state-sancion: #1e7f4f;
   --state-sancion-bg: #e2f3ea;
+  --state-rechazo: #b42318;
+  --state-rechazo-bg: #fbe7e5;
   --badge-live: #c1440e;
   --badge-live-bg: #fdece2;
 }
@@ -74,6 +76,8 @@
     --state-od-bg: #2a2140;
     --state-sancion: #5fcd93;
     --state-sancion-bg: #123423;
+    --state-rechazo: #f28b7f;
+    --state-rechazo-bg: #3a1512;
     --badge-live: #ff9466;
     --badge-live-bg: #3a1c10;
   }
@@ -357,6 +361,7 @@ main {
 .pill.comision { color: var(--state-comision); background: var(--state-comision-bg); }
 .pill.od { color: var(--state-od); background: var(--state-od-bg); }
 .pill.sancion { color: var(--state-sancion); background: var(--state-sancion-bg); }
+.pill.rechazo { color: var(--state-rechazo); background: var(--state-rechazo-bg); }
 
 .candidato {
   font-weight: 700;
@@ -503,6 +508,7 @@ main {
 }
 .timeline li.done::before { background: var(--accent); border-color: var(--accent); }
 .timeline li.active::before { background: var(--badge-live); border-color: var(--badge-live); }
+.timeline li.rejected::before { background: var(--state-rechazo); border-color: var(--state-rechazo); }
 .timeline .step-label {
   font-size: 11px;
   text-transform: uppercase;
@@ -511,6 +517,8 @@ main {
   color: var(--ink-soft);
 }
 .timeline li.done .step-label { color: var(--accent-deep); }
+.timeline li.rejected .step-label,
+.timeline li.rejected .step-value { color: var(--state-rechazo); }
 .timeline .step-value {
   font-size: 14px;
   margin-top: 2px;
@@ -668,13 +676,15 @@ footer {
     { key: "dar_cuenta", label: "Para dar cuenta" },
     { key: "sin_audiencia", label: "En comisión" },
     { key: "con_od", label: "Con Orden del Día" },
-    { key: "sancionado", label: "Sancionado" }
+    { key: "sancionado", label: "Sancionado" },
+    { key: "rechazado", label: "Rechazado" }
   ];
   var PILL_META = {
     dar_cuenta: { cls: "pendiente", label: "Para dar cuenta" },
     sin_audiencia: { cls: "comision", label: "En comisión" },
     con_od: { cls: "od", label: "Con Orden del Día" },
-    sancionado: { cls: "sancion", label: "Sancionado" }
+    sancionado: { cls: "sancion", label: "Sancionado" },
+    rechazado: { cls: "rechazo", label: "Rechazado" }
   };
 
   var state = { categoria: "todos", q: "", soloProgramada: false };
@@ -703,7 +713,7 @@ footer {
   }
 
   function counts() {
-    var c = { todos: pliegos.length, dar_cuenta: 0, sin_audiencia: 0, con_od: 0, sancionado: 0 };
+    var c = { todos: pliegos.length, dar_cuenta: 0, sin_audiencia: 0, con_od: 0, sancionado: 0, rechazado: 0 };
     pliegos.forEach(function (p) { c[p.categoria]++; });
     return c;
   }
@@ -847,20 +857,21 @@ footer {
     });
 
     steps.push({
-      label: "Sanción del Senado",
-      value: t.sancion ? formatFechaDDMMAAAA(t.sancion) : "Pendiente",
-      done: !!t.sancion
+      label: t.rechazo ? "Rechazado por el Senado" : "Sanción del Senado",
+      value: t.rechazo ? formatFechaDDMMAAAA(t.rechazo) : (t.sancion ? formatFechaDDMMAAAA(t.sancion) : "Pendiente"),
+      done: !!t.sancion,
+      rejected: !!t.rechazo
     });
 
     // mark the first not-done step as "active" (current stage)
     var activeMarked = false;
     return steps.map(function (s) {
-      var cls = s.done ? "done" : "";
-      if (!s.done && !activeMarked) { cls = "active"; activeMarked = true; }
+      var cls = s.rejected ? "rejected" : (s.done ? "done" : "");
+      if (!s.done && !s.rejected && !activeMarked) { cls = "active"; activeMarked = true; }
       return (
         '<li class="' + cls + '">' +
           '<div class="step-label">' + s.label + '</div>' +
-          '<div class="step-value' + (s.done ? '' : ' muted') + '">' + escapeHTML(s.value) + '</div>' +
+          '<div class="step-value' + (s.done || s.rejected ? '' : ' muted') + '">' + escapeHTML(s.value) + '</div>' +
         '</li>'
       );
     }).join("");

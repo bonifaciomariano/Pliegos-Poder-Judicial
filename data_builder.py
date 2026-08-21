@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Genera pliegos_data.json a partir de las 4 fuentes del Senado:
-  - Acuerdos_al_10_8.xlsx           (planilla madre, filas TIPO == 'AC')
+  - Acuerdos_gestion_Milei.xlsx     (planilla madre, filas TIPO == 'AC')
   - AYUDA_MEMORIA_2026__AC_para_dar_cuenta.csv   (validación "dar_cuenta")
   - Audiencias_publicas_acuerdos.md (fechas reales de audiencias ya realizadas)
   - BOLETIN_DE_REUNIONES_DE_COMISIONES_91_2026.pdf (audiencias programadas)
@@ -76,15 +76,15 @@ PROVINCIAS_CANONICAS = {
 
 CARGO_KEYWORDS_JUDICIALES = (
     "JUEZ", "JUEZA", "FISCAL", "DEFENSOR", "DEFENSORA", "VOCAL",
-    "CAMARISTA", "CONJUEZ", "CONJUECES",
+    "CAMARISTA", "CONJUEZ", "CONJUECES", "PROCURADOR", "PROCURADORA",
 )
 
 DESIGNAR_RE = re.compile(
-    r'DESIGNAR\s+(.+?),?\s+(?:AL|A LA)\s+(?:DR\.|DRA\.)\s*([^.\n]+)\.?',
+    r'DESIGNAR\s+(.+?),?\s+(?:AL|A LA)\s+(?:DR\.|DRA\.|DOCTOR|DOCTORA)\s*([^.\n]+)\.?',
     re.IGNORECASE,
 )
 NOMBRAMIENTO_RE = re.compile(
-    r'NOMBRAMIENTO\s+(?:DEL|DE LA)\s+(.+?),?\s+(?:AL|A LA)\s+(?:DR\.|DRA\.)\s*([^.\n]+)\.?',
+    r'NOMBRAMIENTO\s+(?:DEL|DE LA)\s+(.+?),?\s+(?:AL|A LA)\s+(?:DR\.|DRA\.|DOCTOR|DOCTORA)\s*([^.\n]+)\.?',
     re.IGNORECASE,
 )
 CONJUECES_RE = re.compile(r'DESIGNAR\s+(CONJUECES\s+.+?)\.?\s*$', re.IGNORECASE | re.DOTALL)
@@ -137,15 +137,20 @@ def parse_od_field(raw_text):
     return m.group(1), m.group(2)
 
 
-def parse_sancion_field(raw):
-    """Columna AJ (SANCIONES/SITUACIÓN EXP): 'AP  {fecha}  ...' si fue sancionado."""
+def parse_situacion_field(raw):
+    """Columna SANCIONES/SITUACIÓN EXP: 'AP {fecha} ...' si fue sancionado
+    (aprobado), 'RE {fecha} ...' si fue rechazado. Devuelve (estado, fecha)
+    con estado en {"AP", "RE", None}."""
     if not raw:
-        return None
-    text = str(raw).strip()
-    if not text.upper().startswith("AP"):
-        return None
-    m = re.search(r'AP\s+(\d{2}/\d{2}/\d{4})', text.upper())
-    return m.group(1) if m else None
+        return None, None
+    text = str(raw).strip().upper()
+    if text.startswith("AP"):
+        m = re.search(r'AP\s+(\d{2}/\d{2}/\d{4})', text)
+        return ("AP", m.group(1)) if m else ("AP", None)
+    if text.startswith("RE"):
+        m = re.search(r'RE\s+(\d{2}/\d{2}/\d{4})', text)
+        return ("RE", m.group(1)) if m else ("RE", None)
+    return None, None
 
 
 def extract_cargo_candidato(caratula):
@@ -159,13 +164,30 @@ def extract_cargo_candidato(caratula):
 
     m = DESIGNAR_RE.search(text)
     if m:
-        return m.group(1).strip().rstrip(","), m.group(2).strip()
+        return m.group(1).strip().rstrip(","), _limpiar_candidato(m.group(2))
 
     m = NOMBRAMIENTO_RE.search(text)
     if m:
-        return m.group(1).strip().rstrip(","), m.group(2).strip()
+        return m.group(1).strip().rstrip(","), _limpiar_candidato(m.group(2))
 
     return None, None
+
+
+def _limpiar_candidato(nombre):
+    """Saca referencias tipo '(REF. P.E. 8/20)' que quedan pegadas al nombre
+    cuando el punto de 'REF.' corta antes de tiempo la captura del regex."""
+    return re.sub(r'\s*\(.*$', '', nombre).strip()
+
+
+def label_administrativo(caratula):
+    """Título genérico para mensajes de trámite (retiros, asignación de
+    salas) que no traen un/a candidato/a puntual para extraer."""
+    upper = caratula.upper()
+    if "ASIGNA SALAS Y VOCAL" in upper:
+        return "Asignación de salas y vocalías"
+    if "SOLICITA EL RETIRO" in upper:
+        return "Retiro de mensaje(s) de designación"
+    return "Mensaje administrativo"
 
 
 def extract_provincia(cargo_text):
@@ -346,7 +368,6 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
     }
 
     pliegos = []
-    excluidos_administrativos = []
     excluidos_no_judiciales = []
     excluidos_sin_match = []
 
@@ -363,16 +384,24 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
 
         caratula = row[col["CARÁTULA"]].value or ""
 
-        if re.search(r'ASIGNA SALAS Y VOCAL[IÍ]AS|SOLICITA EL RETIRO', caratula, re.IGNORECASE):
-            excluidos_administrativos.append({"expediente": expediente, "caratula": caratula.strip()})
-            continue
+        # mensajes de trámite (retiro de una designación, asignación de
+        # salas/vocalías): se muestran igual que un pliego, pero sin exigirles
+        # el patrón "DESIGNAR ... AL/A LA DR." ni la lista de cargos
+        # judiciales, porque muchos son plurales o puramente administrativos
+        es_administrativo = bool(
+            re.search(r'ASIGNA SALAS Y VOCAL[IÍ]AS|SOLICITA EL RETIRO', caratula, re.IGNORECASE)
+        )
 
         cargo, candidato = extract_cargo_candidato(caratula)
         if cargo is None:
-            excluidos_sin_match.append({"expediente": expediente, "caratula": caratula.strip()})
-            continue
+            if es_administrativo:
+                cargo = " ".join(caratula.split())
+                candidato = label_administrativo(caratula)
+            else:
+                excluidos_sin_match.append({"expediente": expediente, "caratula": caratula.strip()})
+                continue
 
-        if not is_judicial(cargo):
+        if not es_administrativo and not is_judicial(cargo):
             excluidos_no_judiciales.append({"expediente": expediente, "cargo": cargo, "caratula": caratula.strip()})
             continue
 
@@ -400,7 +429,9 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
         # de las exportaciones sueltas en nuevas_od/ (se van acumulando ahí)
         od_fecha_dictamen = nuevas_od.get(expediente, {}).get("fecha_dictamen")
 
-        fecha_sancion = parse_sancion_field(row[col["SANCIONES/SITUACIÓN EXP"]].value)
+        situacion, fecha_situacion = parse_situacion_field(row[col["SANCIONES/SITUACIÓN EXP"]].value)
+        fecha_sancion = fecha_situacion if situacion == "AP" else None
+        fecha_rechazo = fecha_situacion if situacion == "RE" else None
 
         fecha_audiencia = (
             audiencias_realizadas.get(expediente)
@@ -413,6 +444,8 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
             categoria = "dar_cuenta"
         elif fecha_sancion:
             categoria = "sancionado"
+        elif fecha_rechazo:
+            categoria = "rechazado"
         elif od_nro:
             categoria = "con_od"
         else:
@@ -439,6 +472,7 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
                     if od_nro else None
                 ),
                 "sancion": fecha_sancion,
+                "rechazo": fecha_rechazo,
             },
             "audiencia_programada": programada,
             # badge transitorio: ya tuvo la audiencia pública pero la comisión
@@ -463,7 +497,6 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
     }
 
     log = {
-        "excluidos_administrativos": excluidos_administrativos,
         "excluidos_no_judiciales": excluidos_no_judiciales,
         "excluidos_sin_match_regex": excluidos_sin_match,
         "dar_cuenta_csv_no_encontrados_en_planilla": faltan_en_planilla,
@@ -477,7 +510,7 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--xlsx", default=HERE / "Acuerdos_al_10_8.xlsx")
+    parser.add_argument("--xlsx", default=HERE / "Acuerdos_gestion_Milei.xlsx")
     parser.add_argument("--csv", default=HERE / "AYUDA_MEMORIA_2026__AC_para_dar_cuenta.csv")
     parser.add_argument("--md", default=HERE / "Audiencias_publicas_acuerdos.md")
     parser.add_argument("--pdf", default=HERE / "BOLETIN_DE_REUNIONES_DE_COMISIONES_91_2026.pdf")
@@ -502,10 +535,6 @@ def main():
     out_path.write_text(json.dumps(resultado, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"OK: {resultado['total']} pliegos judiciales escritos en {out_path}")
-    print()
-    print("--- Excluidos: administrativos sin candidato / retiros ---")
-    for item in log["excluidos_administrativos"]:
-        print(f"  {item['expediente']}: {item['caratula'][:100]}")
     print()
     print("--- Excluidos: carátula no matchea el patrón de designación ---")
     for item in log["excluidos_sin_match_regex"]:

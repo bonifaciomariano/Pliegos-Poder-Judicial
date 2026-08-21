@@ -32,7 +32,7 @@ que generar nada a mano ni acordarse de correr un build antes de subir.
   Es lo mismo que termina publicado en GitHub Pages como `index.html`.
 - `fonts/` — subset de Montserrat en `.woff2`, embebido en base64 al generar
   el HTML.
-- Fuentes de datos en esta carpeta: `Acuerdos_al_10_8.xlsx`,
+- Fuentes de datos en esta carpeta: `Acuerdos_gestion_Milei.xlsx`,
   `AYUDA_MEMORIA_2026__AC_para_dar_cuenta.csv`,
   `Audiencias_publicas_acuerdos.md`,
   `BOLETIN_DE_REUNIONES_DE_COMISIONES_91_2026.pdf`.
