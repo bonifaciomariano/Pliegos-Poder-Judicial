@@ -14,7 +14,7 @@
     "La Rioja",
     "Mendoza",
     "Misiones",
-    "Nacional / Múltiple",
+    "Nacional / Federal",
     "Neuquén",
     "Río Negro",
     "Salta",
@@ -136,7 +136,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/264.26/PE/AC",
       "candidato": "ROMINA SOLEDAD PARABONI",
       "cargo": "DEFENSORA AUXILIAR DE LA DEFENSORIA GENERAL DE LA NACION",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "dar_cuenta",
       "timeline": {
         "ingreso": "05/08/2026",
@@ -2348,7 +2348,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/128.26/PE/AC",
       "candidato": "Conjueces (designación plural)",
       "cargo": "CONJUECES DE LOS JUZGADOS FEDERALES DE PRIMERA INSTANCIA DE LA JURISDICCIÓN DE LA CÁMARA FEDERAL DE APELACIONES DE CÓRDOBA",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Córdoba",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2698,7 +2698,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/114.26/PE/AC",
       "candidato": "ALICIA ISABEL BRAGHINI",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA III",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -2973,7 +2973,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/103.26/PE/AC",
       "candidato": "ANA CLARISA GALAN MUÑOZ",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LA CAMARA FEDERAL DE CASACION PENAL, DEFENSORIA N° 3",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "con_od",
       "timeline": {
         "ingreso": "24/04/2026",
@@ -3094,7 +3094,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/89.26/PE/AC",
       "candidato": "Asignación de salas y vocalías",
       "cargo": "MENSAJE N° 99/26 QUE ASIGNA SALAS Y VOCALIAS A MENSAJES REMITIDOS SOLICITANDO ACUERDO PARA DESIGNAR A MAGISTRADOS JUDICIALES.",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "09/04/2026",
@@ -3815,7 +3815,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/59.26/PE/AC",
       "candidato": "JUAN ANDRES MOLDES",
       "cargo": "FISCAL ANTE LOS JUZGADOS NACIONALES EN LO PENAL ECONOMICO, FISCALIA N° 1",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3965,7 +3965,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/53.26/PE/AC",
       "candidato": "FERNANDO STRASSER",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA III",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -3990,7 +3990,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/52.26/PE/AC",
       "candidato": "WALTER FABIAN CARNOTA",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE LA SEGURIDAD SOCIAL, SALA II",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4265,7 +4265,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/41.26/PE/AC",
       "candidato": "FELIPE ALBERTO ALLIAUD",
       "cargo": "DEFENSOR PUBLICO CURADOR DE LA DEFENSORIA GENERAL DE LA NACION, DEFENSORIA PUBLICA CURADURIA N° 4",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4365,7 +4365,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/37.26/PE/AC",
       "candidato": "JUAN PEDRO GALVAN GREENWAY",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, SALA A",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4411,7 +4411,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/35.26/PE/AC",
       "candidato": "ALEJANDRO JAVIER CATANIA",
       "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, SALA B",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4632,7 +4632,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/26.26/PE/AC",
       "candidato": "MARIA INES RESTON",
       "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y ANTE LA CAMARA NACIONAL DE APELACIONES EN LO PENAL ECONOMICO, DEFENSORIA N° 1",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "30/03/2026",
@@ -4932,7 +4932,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/176.25/PE/AC",
       "candidato": "CARLOS ALBERTO MAHIQUES",
       "cargo": "VOCAL DE LA CAMARA FEDERAL DE CASACION PENAL, VOCALIA VII",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "04/02/2026",
@@ -5053,7 +5053,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/37.24/PE/AC",
       "candidato": "ARIEL OSCAR LIJO",
       "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "rechazado",
       "timeline": {
         "ingreso": "28/05/2024",
@@ -5078,7 +5078,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/36.24/PE/AC",
       "candidato": "MANUEL JOSE GARCIA MANSILLA",
       "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "rechazado",
       "timeline": {
         "ingreso": "28/05/2024",
@@ -5124,7 +5124,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/199.23/PE/AC",
       "candidato": "Retiro de mensaje(s) de designación",
       "cargo": "MENSAJE N° 8/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES QUE SOLICITARAN ACUERDOS PARA DESIGNAR FUNCIONARIOS Y FUNCIONARIAS DEL PODER JUDICIAL DE LA NACIÓN. (REF. P.E. 158, 159, 160 Y 168/23)",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "29/12/2023",
@@ -5145,7 +5145,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/186.23/PE/AC",
       "candidato": "Retiro de mensaje(s) de designación",
       "cargo": "MENSAJE N° 2/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES POR LOS CUALES SE SOLICITARA ACUERDOS PARA DESIGNAR FUNCIONARIOS DEL PODER JUDICIAL DE LA NACIÓN, DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN Y DEL MINISTERIO PÚBLICO DE LA DEFENSA DE LA NACIÓN.",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/12/2023",
@@ -5166,7 +5166,7 @@
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/185.23/PE/AC",
       "candidato": "DANIEL EDUARDO RAFECAS",
       "cargo": "PROCURADOR GENERAL DE LA NACIÓN",
-      "provincia": "Nacional / Múltiple",
+      "provincia": "Nacional / Federal",
       "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/12/2023",

@@ -206,7 +206,19 @@ def extract_provincia(cargo_text):
             # "PROV. DEL X" -> el nombre de la provincia es X (Chubut, Chaco, Neuquén...)
             return PROVINCIAS_CANONICAS.get(key, nombre.title())
         return PROVINCIAS_CANONICAS.get(key, nombre.title())
-    return "Nacional / Múltiple"
+
+    # Conjueces y designaciones que identifican la jurisdicción por el asiento
+    # de la Cámara Federal de Apelaciones en vez de decir "provincia de". Solo
+    # se acepta si lo capturado matchea EXACTO el nombre de una provincia de
+    # PROVINCIAS_CANONICAS, para no confundir un apellido (ej. "Córdoba") con
+    # la jurisdicción.
+    m = re.search(r'C[ÁA]MARA FEDERAL DE APELACIONES DE ([A-ZÁÉÍÓÚÑ ]+?)(?:,|\.|$)', upper)
+    if m:
+        key = strip_accents(m.group(1).strip())
+        if key in PROVINCIAS_CANONICAS:
+            return PROVINCIAS_CANONICAS[key]
+
+    return "Nacional / Federal"
 
 
 def is_judicial(cargo_text):
