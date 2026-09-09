@@ -1,6 +1,6 @@
 {
-  "generado_al": "2026-08-21",
-  "total": 212,
+  "generado_al": "2026-09-09",
+  "total": 223,
   "provincias": [
     "Buenos Aires",
     "CABA",
@@ -27,6 +27,351 @@
   ],
   "pliegos": [
     {
+      "expediente": "PE-293/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/293.26/PE/AC",
+      "candidato": "Conjueces (designación plural)",
+      "cargo": "CONJUECES DE LOS JUZGADOS NACIONALES DE PRIMERA INSTANCIA DEL TRABAJO DE LA JURISDICCION DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL,",
+      "provincia": "CABA",
+      "rango": "Conjueces",
+      "fuero": "Laboral",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-292/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/292.26/PE/AC",
+      "candidato": "MARIA JULIETA IBAÑEZ ARRIETA",
+      "cargo": "DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROV. DE LA RIOJA",
+      "provincia": "La Rioja",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-291/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/291.26/PE/AC",
+      "candidato": "SOFIA INES HERNANDEZ SAINT JEAN",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-290/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/290.26/PE/AC",
+      "candidato": "JUAN MANUEL KEES",
+      "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE NEUQUEN, PROV. DEL NEUQUEN",
+      "provincia": "Neuquén",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-289/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/289.26/PE/AC",
+      "candidato": "FEDERICO MIGUEL BAQUIONI",
+      "cargo": "FISCAL GENERAL DE LA UNIDAD FISCAL SAN LUIS, PROV. DE SAN LUIS",
+      "provincia": "San Luis",
+      "rango": "Fiscal",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-288/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/288.26/PE/AC",
+      "candidato": "MARIANO JAVIER CAMBLONG",
+      "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE VENADO TUERTO, PROV. DE SANTA FE",
+      "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-287/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/287.26/PE/AC",
+      "candidato": "JUAN MATEO DIJOU",
+      "cargo": "JUEZ DEL TRIBUNAL FEDERAL DE JUICIO DE RESISTENCIA, PROV. DEL CHACO",
+      "provincia": "Chaco",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-286/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/286.26/PE/AC",
+      "candidato": "MATIAS SEBASTIAN MORENO ESPEJA",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA IX",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-285/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/285.26/PE/AC",
+      "candidato": "BERENICE OLMEDO",
+      "cargo": "DEFENSORA PUBLICA DE VICTIMA CON ASIENTO EN LA PROVINCIA DE CORDOBA",
+      "provincia": "Córdoba",
+      "rango": "Defensor/a",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-284/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/284.26/PE/AC",
+      "candidato": "VANESA NATALIA DRUETTA",
+      "cargo": "JUEZA PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE SANTA FE, PROVINCIA DE SANTA FE",
+      "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-283/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/283.26/PE/AC",
+      "candidato": "NATALIA EDA BONINO",
+      "cargo": "DEFENSORA PUBLICA DE MENORES E INCAPACES ANTE LOS TRIBUNALES ORALES EN LO CRIMINAL Y CORRECCIONAL DE LA CAPITAL FEDERAL, DEFENSORIA N° 2",
+      "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Menores",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-282/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/282.26/PE/AC",
+      "candidato": "LUCIANO CRUZ SAVIGNANO",
+      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN NICOLAS, PROVINCIA DE BUENOS AIRES",
+      "provincia": "Buenos Aires",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/08/2026",
+        "dado_cuenta": {
+          "sesion": "29",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-279/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/279.26/PE/AC",
+      "candidato": "SIXTO MIHURA GRADIN",
+      "cargo": "JUEZ DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°10 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "27/08/2026",
+        "dado_cuenta": {
+          "sesion": "28",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-278/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/278.26/PE/AC",
+      "candidato": "A ROMINA MONTELEONE",
+      "cargo": "JUEZA DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°30 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "27/08/2026",
+        "dado_cuenta": {
+          "sesion": "28",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-277/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/277.26/PE/AC",
+      "candidato": "JUAN CARLOS BERNIAL",
+      "cargo": "JUEZ DE CÁMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N°5 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "27/08/2026",
+        "dado_cuenta": {
+          "sesion": "28",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
       "expediente": "PE-269/26",
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/269.26/PE/AC",
       "candidato": "FRANCO MARIANO CARBONE",
@@ -34,12 +379,12 @@
       "provincia": "Santa Fe",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -57,12 +402,12 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Seguridad Social",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -80,12 +425,12 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Seguridad Social",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -103,12 +448,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -126,12 +471,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal Económico",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -149,12 +494,12 @@
       "provincia": "Nacional / Federal",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -172,12 +517,12 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "05/08/2026",
         "dado_cuenta": {
           "sesion": "27",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -195,12 +540,12 @@
       "provincia": "Santa Fe",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -218,12 +563,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Menores",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -241,12 +586,12 @@
       "provincia": "Santa Cruz",
       "rango": "Fiscal",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -264,12 +609,12 @@
       "provincia": "Misiones",
       "rango": "Fiscal",
       "fuero": "Contencioso Administrativo",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -287,12 +632,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -310,12 +655,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -333,12 +678,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -356,12 +701,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -379,12 +724,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -402,12 +747,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -425,12 +770,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -448,12 +793,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -471,12 +816,12 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -494,12 +839,12 @@
       "provincia": "Mendoza",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -517,12 +862,12 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Menores",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "03/08/2026",
         "dado_cuenta": {
           "sesion": "26",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -540,12 +885,12 @@
       "provincia": "CABA",
       "rango": "Conjueces",
       "fuero": "Laboral",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "17/07/2026",
         "dado_cuenta": {
           "sesion": "25",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -563,12 +908,12 @@
       "provincia": "CABA",
       "rango": "Conjueces",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "17/07/2026",
         "dado_cuenta": {
           "sesion": "25",
-          "fecha": null
+          "fecha": "27/08/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -586,7 +931,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -597,9 +942,10 @@
         "orden_del_dia": {
           "numero": "320",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -613,7 +959,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -624,9 +970,10 @@
         "orden_del_dia": {
           "numero": "319",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -640,7 +987,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -651,9 +998,10 @@
         "orden_del_dia": {
           "numero": "293",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -667,7 +1015,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -678,9 +1026,10 @@
         "orden_del_dia": {
           "numero": "318",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -694,7 +1043,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -705,9 +1054,10 @@
         "orden_del_dia": {
           "numero": "292",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -721,7 +1071,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/07/2026",
         "dado_cuenta": {
@@ -732,9 +1082,10 @@
         "orden_del_dia": {
           "numero": "317",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -748,7 +1099,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -759,9 +1110,10 @@
         "orden_del_dia": {
           "numero": "316",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -775,7 +1127,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -786,9 +1138,10 @@
         "orden_del_dia": {
           "numero": "315",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -825,7 +1178,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -836,9 +1189,10 @@
         "orden_del_dia": {
           "numero": "306",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -852,7 +1206,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -863,9 +1217,10 @@
         "orden_del_dia": {
           "numero": "305",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -879,7 +1234,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -890,9 +1245,10 @@
         "orden_del_dia": {
           "numero": "304",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -906,7 +1262,7 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -917,9 +1273,10 @@
         "orden_del_dia": {
           "numero": "303",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -933,7 +1290,7 @@
       "provincia": "Buenos Aires",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -944,9 +1301,10 @@
         "orden_del_dia": {
           "numero": "314",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -960,7 +1318,7 @@
       "provincia": "Catamarca",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -971,9 +1329,10 @@
         "orden_del_dia": {
           "numero": "313",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -987,7 +1346,7 @@
       "provincia": "Córdoba",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -998,9 +1357,10 @@
         "orden_del_dia": {
           "numero": "312",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1014,7 +1374,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1025,9 +1385,10 @@
         "orden_del_dia": {
           "numero": "302",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1041,7 +1402,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1052,9 +1413,10 @@
         "orden_del_dia": {
           "numero": "301",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1068,7 +1430,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Comercial",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1079,9 +1441,10 @@
         "orden_del_dia": {
           "numero": "300",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1095,7 +1458,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1106,9 +1469,10 @@
         "orden_del_dia": {
           "numero": "299",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1145,7 +1509,7 @@
       "provincia": "Buenos Aires",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1156,9 +1520,10 @@
         "orden_del_dia": {
           "numero": "311",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1172,7 +1537,7 @@
       "provincia": "Salta",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1183,9 +1548,10 @@
         "orden_del_dia": {
           "numero": "310",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1199,7 +1565,7 @@
       "provincia": "Córdoba",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1210,9 +1576,10 @@
         "orden_del_dia": {
           "numero": "309",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1226,7 +1593,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1237,9 +1604,10 @@
         "orden_del_dia": {
           "numero": "298",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1253,7 +1621,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1264,9 +1632,10 @@
         "orden_del_dia": {
           "numero": "297",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1280,7 +1649,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "25/06/2026",
         "dado_cuenta": {
@@ -1291,9 +1660,10 @@
         "orden_del_dia": {
           "numero": "296",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1307,7 +1677,7 @@
       "provincia": "Buenos Aires",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "04/06/2026",
         "dado_cuenta": {
@@ -1318,9 +1688,10 @@
         "orden_del_dia": {
           "numero": "308",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1334,7 +1705,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "04/06/2026",
         "dado_cuenta": {
@@ -1345,9 +1716,10 @@
         "orden_del_dia": {
           "numero": "295",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1384,7 +1756,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "27/05/2026",
         "dado_cuenta": {
@@ -1395,9 +1767,10 @@
         "orden_del_dia": {
           "numero": "294",
           "anio": "2026",
-          "fecha_dictamen": "13/08/2026"
+          "fecha_dictamen": "13/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1422,7 +1795,8 @@
         "orden_del_dia": {
           "numero": "219",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1438,7 +1812,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "27/05/2026",
         "dado_cuenta": {
@@ -1449,9 +1823,10 @@
         "orden_del_dia": {
           "numero": "291",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1476,7 +1851,8 @@
         "orden_del_dia": {
           "numero": "218",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1503,7 +1879,8 @@
         "orden_del_dia": {
           "numero": "217",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1519,7 +1896,7 @@
       "provincia": "Chubut",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "19/05/2026",
         "dado_cuenta": {
@@ -1530,9 +1907,10 @@
         "orden_del_dia": {
           "numero": "254",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1546,7 +1924,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "19/05/2026",
         "dado_cuenta": {
@@ -1557,9 +1935,10 @@
         "orden_del_dia": {
           "numero": "253",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1584,7 +1963,8 @@
         "orden_del_dia": {
           "numero": "216",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1600,7 +1980,7 @@
       "provincia": "Santa Fe",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "15/05/2026",
         "dado_cuenta": {
@@ -1611,9 +1991,10 @@
         "orden_del_dia": {
           "numero": "252",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1627,7 +2008,7 @@
       "provincia": "Catamarca",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "14/05/2026",
         "dado_cuenta": {
@@ -1638,9 +2019,10 @@
         "orden_del_dia": {
           "numero": "251",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1654,7 +2036,7 @@
       "provincia": "Chubut",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "14/05/2026",
         "dado_cuenta": {
@@ -1665,9 +2047,10 @@
         "orden_del_dia": {
           "numero": "250",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1692,7 +2075,8 @@
         "orden_del_dia": {
           "numero": "215",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1708,7 +2092,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1719,9 +2103,10 @@
         "orden_del_dia": {
           "numero": "290",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1735,7 +2120,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1746,9 +2131,10 @@
         "orden_del_dia": {
           "numero": "289",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1762,7 +2148,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1773,9 +2159,10 @@
         "orden_del_dia": {
           "numero": "288",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1789,7 +2176,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1800,9 +2187,10 @@
         "orden_del_dia": {
           "numero": "270",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1827,7 +2215,8 @@
         "orden_del_dia": {
           "numero": "214",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1843,7 +2232,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1854,9 +2243,10 @@
         "orden_del_dia": {
           "numero": "287",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -1881,7 +2271,8 @@
         "orden_del_dia": {
           "numero": "213",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1908,7 +2299,8 @@
         "orden_del_dia": {
           "numero": "212",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1935,7 +2327,8 @@
         "orden_del_dia": {
           "numero": "211",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1962,7 +2355,8 @@
         "orden_del_dia": {
           "numero": "210",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -1978,7 +2372,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "13/05/2026",
         "dado_cuenta": {
@@ -1989,9 +2383,10 @@
         "orden_del_dia": {
           "numero": "286",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2005,7 +2400,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
         "dado_cuenta": {
@@ -2016,9 +2411,10 @@
         "orden_del_dia": {
           "numero": "269",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2032,7 +2428,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
         "dado_cuenta": {
@@ -2043,9 +2439,10 @@
         "orden_del_dia": {
           "numero": "268",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2070,7 +2467,8 @@
         "orden_del_dia": {
           "numero": "208",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2097,7 +2495,8 @@
         "orden_del_dia": {
           "numero": "207",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2113,7 +2512,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
         "dado_cuenta": {
@@ -2124,9 +2523,10 @@
         "orden_del_dia": {
           "numero": "267",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2151,7 +2551,8 @@
         "orden_del_dia": {
           "numero": "206",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2167,7 +2568,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "12/05/2026",
         "dado_cuenta": {
@@ -2178,9 +2579,10 @@
         "orden_del_dia": {
           "numero": "266",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2205,7 +2607,8 @@
         "orden_del_dia": {
           "numero": "205",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2232,7 +2635,8 @@
         "orden_del_dia": {
           "numero": "204",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2259,7 +2663,8 @@
         "orden_del_dia": {
           "numero": "203",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2286,7 +2691,8 @@
         "orden_del_dia": {
           "numero": "202",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2313,7 +2719,8 @@
         "orden_del_dia": {
           "numero": "201",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2340,7 +2747,8 @@
         "orden_del_dia": {
           "numero": "200",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2367,7 +2775,8 @@
         "orden_del_dia": {
           "numero": "129",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2394,7 +2803,8 @@
         "orden_del_dia": {
           "numero": "128",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2421,7 +2831,8 @@
         "orden_del_dia": {
           "numero": "127",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2448,7 +2859,8 @@
         "orden_del_dia": {
           "numero": "126",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2475,7 +2887,8 @@
         "orden_del_dia": {
           "numero": "125",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2502,7 +2915,8 @@
         "orden_del_dia": {
           "numero": "124",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2529,7 +2943,8 @@
         "orden_del_dia": {
           "numero": "123",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "09/06/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2556,7 +2971,8 @@
         "orden_del_dia": {
           "numero": "199",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2572,7 +2988,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2583,9 +2999,10 @@
         "orden_del_dia": {
           "numero": "249",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2599,7 +3016,7 @@
       "provincia": "Entre Ríos",
       "rango": "Fiscal",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2610,9 +3027,10 @@
         "orden_del_dia": {
           "numero": "248",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2626,7 +3044,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal Económico",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2637,9 +3055,10 @@
         "orden_del_dia": {
           "numero": "285",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2653,7 +3072,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal Económico",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2664,9 +3083,10 @@
         "orden_del_dia": {
           "numero": "265",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2680,7 +3100,7 @@
       "provincia": "CABA",
       "rango": "Fiscal",
       "fuero": "Penal Económico",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2691,9 +3111,10 @@
         "orden_del_dia": {
           "numero": "264",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2707,7 +3128,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Comercial",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2718,9 +3139,10 @@
         "orden_del_dia": {
           "numero": "263",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2745,7 +3167,8 @@
         "orden_del_dia": {
           "numero": "198",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -2761,7 +3184,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2772,9 +3195,10 @@
         "orden_del_dia": {
           "numero": "247",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2788,7 +3212,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2799,9 +3223,10 @@
         "orden_del_dia": {
           "numero": "284",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2815,7 +3240,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2826,9 +3251,10 @@
         "orden_del_dia": {
           "numero": "283",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2842,7 +3268,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2853,9 +3279,10 @@
         "orden_del_dia": {
           "numero": "262",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2869,7 +3296,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2880,9 +3307,10 @@
         "orden_del_dia": {
           "numero": "282",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2896,7 +3324,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2907,9 +3335,10 @@
         "orden_del_dia": {
           "numero": "246",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2923,7 +3352,7 @@
       "provincia": "Nacional / Federal",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Seguridad Social",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2934,9 +3363,10 @@
         "orden_del_dia": {
           "numero": "261",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2950,7 +3380,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2961,9 +3391,10 @@
         "orden_del_dia": {
           "numero": "260",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -2977,7 +3408,7 @@
       "provincia": "CABA",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Civil",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -2988,9 +3419,10 @@
         "orden_del_dia": {
           "numero": "281",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3004,7 +3436,7 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Penal Económico",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3015,9 +3447,10 @@
         "orden_del_dia": {
           "numero": "280",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3031,7 +3464,7 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3042,9 +3475,10 @@
         "orden_del_dia": {
           "numero": "307",
           "anio": "2026",
-          "fecha_dictamen": "19/08/2026"
+          "fecha_dictamen": "19/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3058,7 +3492,7 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3069,9 +3503,10 @@
         "orden_del_dia": {
           "numero": "279",
           "anio": "2026",
-          "fecha_dictamen": "12/08/2026"
+          "fecha_dictamen": "12/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3085,7 +3520,7 @@
       "provincia": "La Rioja",
       "rango": "Defensor/a",
       "fuero": "Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3096,9 +3531,10 @@
         "orden_del_dia": {
           "numero": "245",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3112,7 +3548,7 @@
       "provincia": "Santiago del Estero",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3123,9 +3559,10 @@
         "orden_del_dia": {
           "numero": "244",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3139,7 +3576,7 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Menores",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3150,9 +3587,10 @@
         "orden_del_dia": {
           "numero": "259",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3177,7 +3615,8 @@
         "orden_del_dia": {
           "numero": "209",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "01/07/2026",
+          "firmantes": null
         },
         "sancion": "16/07/2026",
         "rechazo": null
@@ -3193,7 +3632,7 @@
       "provincia": "Formosa",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3204,9 +3643,10 @@
         "orden_del_dia": {
           "numero": "243",
           "anio": "2026",
-          "fecha_dictamen": "05/08/2026"
+          "fecha_dictamen": "05/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3220,7 +3660,7 @@
       "provincia": "Nacional / Federal",
       "rango": "Defensor/a",
       "fuero": "Casación Penal",
-      "categoria": "con_od",
+      "categoria": "sancionado",
       "timeline": {
         "ingreso": "24/04/2026",
         "dado_cuenta": {
@@ -3231,9 +3671,10 @@
         "orden_del_dia": {
           "numero": "258",
           "anio": "2026",
-          "fecha_dictamen": "06/08/2026"
+          "fecha_dictamen": "06/08/2026",
+          "firmantes": null
         },
-        "sancion": null,
+        "sancion": "27/08/2026",
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -3258,7 +3699,8 @@
         "orden_del_dia": {
           "numero": "101",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3285,7 +3727,8 @@
         "orden_del_dia": {
           "numero": "100",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3301,7 +3744,7 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "09/04/2026",
         "dado_cuenta": {
@@ -3309,12 +3752,27 @@
           "fecha": "09/04/2026"
         },
         "audiencia": "14/05/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "338",
+          "anio": "2026",
+          "fecha_dictamen": "26/08/2026",
+          "firmantes": [
+            "Juan C. Pagotto",
+            "Sandra M. Mendoza",
+            "Carlos O. Arce",
+            "Patricia Bullrich",
+            "Agustín P. Coto",
+            "Juan C. Godoy",
+            "Enrique M. Goerling Lara",
+            "Carolina Losada",
+            "Nadia J. Márquez"
+          ]
+        },
         "sancion": null,
         "rechazo": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-90/26",
@@ -3335,7 +3793,8 @@
         "orden_del_dia": {
           "numero": "99",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3385,7 +3844,8 @@
         "orden_del_dia": {
           "numero": "98",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3412,7 +3872,8 @@
         "orden_del_dia": {
           "numero": "97",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3439,7 +3900,8 @@
         "orden_del_dia": {
           "numero": "96",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3466,7 +3928,8 @@
         "orden_del_dia": {
           "numero": "95",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3493,7 +3956,8 @@
         "orden_del_dia": {
           "numero": "87",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3520,7 +3984,8 @@
         "orden_del_dia": {
           "numero": "86",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3547,7 +4012,8 @@
         "orden_del_dia": {
           "numero": "85",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3574,7 +4040,8 @@
         "orden_del_dia": {
           "numero": "84",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3601,7 +4068,8 @@
         "orden_del_dia": {
           "numero": "94",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3628,7 +4096,8 @@
         "orden_del_dia": {
           "numero": "93",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3655,7 +4124,8 @@
         "orden_del_dia": {
           "numero": "83",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3682,7 +4152,8 @@
         "orden_del_dia": {
           "numero": "82",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3709,7 +4180,8 @@
         "orden_del_dia": {
           "numero": "58",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3736,7 +4208,8 @@
         "orden_del_dia": {
           "numero": "81",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3763,7 +4236,8 @@
         "orden_del_dia": {
           "numero": "57",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3790,7 +4264,8 @@
         "orden_del_dia": {
           "numero": "92",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3817,7 +4292,8 @@
         "orden_del_dia": {
           "numero": "80",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3844,7 +4320,8 @@
         "orden_del_dia": {
           "numero": "79",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3871,7 +4348,8 @@
         "orden_del_dia": {
           "numero": "78",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3898,7 +4376,8 @@
         "orden_del_dia": {
           "numero": "77",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3925,7 +4404,8 @@
         "orden_del_dia": {
           "numero": "76",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3952,7 +4432,8 @@
         "orden_del_dia": {
           "numero": "91",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -3979,7 +4460,8 @@
         "orden_del_dia": {
           "numero": "75",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4006,7 +4488,8 @@
         "orden_del_dia": {
           "numero": "74",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4033,7 +4516,8 @@
         "orden_del_dia": {
           "numero": "73",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4060,7 +4544,8 @@
         "orden_del_dia": {
           "numero": "72",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4087,7 +4572,8 @@
         "orden_del_dia": {
           "numero": "71",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4114,7 +4600,8 @@
         "orden_del_dia": {
           "numero": "70",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4141,7 +4628,8 @@
         "orden_del_dia": {
           "numero": "69",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4168,7 +4656,8 @@
         "orden_del_dia": {
           "numero": "90",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4195,7 +4684,8 @@
         "orden_del_dia": {
           "numero": "68",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4222,7 +4712,8 @@
         "orden_del_dia": {
           "numero": "67",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4249,7 +4740,8 @@
         "orden_del_dia": {
           "numero": "56",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4276,7 +4768,8 @@
         "orden_del_dia": {
           "numero": "66",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4303,7 +4796,8 @@
         "orden_del_dia": {
           "numero": "65",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4330,7 +4824,8 @@
         "orden_del_dia": {
           "numero": "64",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4357,7 +4852,8 @@
         "orden_del_dia": {
           "numero": "55",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4384,7 +4880,8 @@
         "orden_del_dia": {
           "numero": "54",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4411,7 +4908,8 @@
         "orden_del_dia": {
           "numero": "53",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4438,7 +4936,8 @@
         "orden_del_dia": {
           "numero": "52",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4465,7 +4964,8 @@
         "orden_del_dia": {
           "numero": "51",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4492,7 +4992,8 @@
         "orden_del_dia": {
           "numero": "50",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4519,7 +5020,8 @@
         "orden_del_dia": {
           "numero": "89",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4546,7 +5048,8 @@
         "orden_del_dia": {
           "numero": "49",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4573,7 +5076,8 @@
         "orden_del_dia": {
           "numero": "48",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4600,7 +5104,8 @@
         "orden_del_dia": {
           "numero": "47",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4627,7 +5132,8 @@
         "orden_del_dia": {
           "numero": "46",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4654,7 +5160,8 @@
         "orden_del_dia": {
           "numero": "45",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4681,7 +5188,8 @@
         "orden_del_dia": {
           "numero": "44",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4708,7 +5216,8 @@
         "orden_del_dia": {
           "numero": "43",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4724,7 +5233,7 @@
       "provincia": "Nacional / Federal",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal Económico",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "30/03/2026",
         "dado_cuenta": {
@@ -4732,12 +5241,32 @@
           "fecha": "09/04/2026"
         },
         "audiencia": "06/05/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "354",
+          "anio": "2026",
+          "fecha_dictamen": "27/08/2026",
+          "firmantes": [
+            "Juan C. Pagotto",
+            "Maximiliano Abad",
+            "Martín E. Goerling Lara",
+            "Beatriz L. Ávila",
+            "Patricia Bullrich",
+            "Agustín P. Coto",
+            "Carlos M. Espínola",
+            "Juan C. Godoy",
+            "Mariana Juri",
+            "Carolina Losada",
+            "Nadia J. Márquez",
+            "Sandra M. Mendoza",
+            "Sonia E. Rojas Decut",
+            "Flavia G. Royón"
+          ]
+        },
         "sancion": null,
         "rechazo": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-36/26",
@@ -4758,7 +5287,8 @@
         "orden_del_dia": {
           "numero": "63",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4774,7 +5304,7 @@
       "provincia": "Nacional / Federal",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal Económico",
-      "categoria": "sin_audiencia",
+      "categoria": "con_od",
       "timeline": {
         "ingreso": "30/03/2026",
         "dado_cuenta": {
@@ -4782,12 +5312,32 @@
           "fecha": "09/04/2026"
         },
         "audiencia": "06/05/2026",
-        "orden_del_dia": null,
+        "orden_del_dia": {
+          "numero": "353",
+          "anio": "2026",
+          "fecha_dictamen": "27/08/2026",
+          "firmantes": [
+            "Juan C. Pagotto",
+            "Maximiliano Abad",
+            "Martín E. Goerling Lara",
+            "Beatriz L. Ávila",
+            "Patricia Bullrich",
+            "Agustín P. Coto",
+            "Carlos M. Espínola",
+            "Juan C. Godoy",
+            "Mariana Juri",
+            "Carolina Losada",
+            "Nadia J. Márquez",
+            "Sandra M. Mendoza",
+            "Sonia E. Rojas Decut",
+            "Flavia G. Royón"
+          ]
+        },
         "sancion": null,
         "rechazo": null
       },
       "audiencia_programada": null,
-      "audiencia_sin_dictamen": true
+      "audiencia_sin_dictamen": false
     },
     {
       "expediente": "PE-34/26",
@@ -4808,7 +5358,8 @@
         "orden_del_dia": {
           "numero": "88",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "15/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4835,7 +5386,8 @@
         "orden_del_dia": {
           "numero": "42",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4862,7 +5414,8 @@
         "orden_del_dia": {
           "numero": "41",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4889,7 +5442,8 @@
         "orden_del_dia": {
           "numero": "112",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "03/06/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4916,7 +5470,8 @@
         "orden_del_dia": {
           "numero": "62",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4943,7 +5498,8 @@
         "orden_del_dia": {
           "numero": "40",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4970,7 +5526,8 @@
         "orden_del_dia": {
           "numero": "39",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -4997,7 +5554,8 @@
         "orden_del_dia": {
           "numero": "61",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5024,7 +5582,8 @@
         "orden_del_dia": {
           "numero": "38",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5051,7 +5610,8 @@
         "orden_del_dia": {
           "numero": "37",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5078,7 +5638,8 @@
         "orden_del_dia": {
           "numero": "60",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5105,7 +5666,8 @@
         "orden_del_dia": {
           "numero": "36",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5132,7 +5694,8 @@
         "orden_del_dia": {
           "numero": "35",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5159,7 +5722,8 @@
         "orden_del_dia": {
           "numero": "34",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5186,7 +5750,8 @@
         "orden_del_dia": {
           "numero": "33",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5213,7 +5778,8 @@
         "orden_del_dia": {
           "numero": "32",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5240,7 +5806,8 @@
         "orden_del_dia": {
           "numero": "31",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5267,7 +5834,8 @@
         "orden_del_dia": {
           "numero": "30",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5294,7 +5862,8 @@
         "orden_del_dia": {
           "numero": "59",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "14/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5321,7 +5890,8 @@
         "orden_del_dia": {
           "numero": "29",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "13/05/2026",
+          "firmantes": null
         },
         "sancion": "04/06/2026",
         "rechazo": null
@@ -5348,7 +5918,8 @@
         "orden_del_dia": {
           "numero": "17",
           "anio": "2026",
-          "fecha_dictamen": null
+          "fecha_dictamen": "16/04/2026",
+          "firmantes": null
         },
         "sancion": "14/05/2026",
         "rechazo": null
@@ -5375,9 +5946,33 @@
         "orden_del_dia": {
           "numero": "575",
           "anio": "2025",
-          "fecha_dictamen": null
+          "fecha_dictamen": "25/09/2025",
+          "firmantes": null
         },
         "sancion": "02/10/2025",
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-129/24",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/129.24/PE/AC",
+      "candidato": "Retiro de mensaje(s) de designación",
+      "cargo": "MENSAJE N° 65/24 QUE SOLICITA EL RETIRO DEL PEDIDO DE ACUERDO PARA EL ASCENSO AL GRADO INMEDIATO SUPERIOR, AL 31 DE DICIEMBRE DE 2022, DEL GENERAL DE BRIGADA JORGE FABIAN BERREDO Y DEL CORONEL GUSTAVO ADRIAN SIVORI, AMBOS INCLUIDOS EN EL MENSAJE Nº 91/23.",
+      "provincia": "Nacional / Federal",
+      "rango": "Sin rango (mensaje administrativo)",
+      "fuero": "Otros",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "22/11/2024",
+        "dado_cuenta": {
+          "sesion": "16",
+          "fecha": "24/04/2025"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
         "rechazo": null
       },
       "audiencia_programada": null,
@@ -5425,7 +6020,8 @@
         "orden_del_dia": {
           "numero": "152",
           "anio": "2024",
-          "fecha_dictamen": null
+          "fecha_dictamen": "18/09/2024",
+          "firmantes": null
         },
         "sancion": "26/09/2024",
         "rechazo": null
@@ -5452,64 +6048,11 @@
         "orden_del_dia": {
           "numero": "151",
           "anio": "2024",
-          "fecha_dictamen": null
+          "fecha_dictamen": "18/09/2024",
+          "firmantes": null
         },
         "sancion": "26/09/2024",
         "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-37/24",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/37.24/PE/AC",
-      "candidato": "ARIEL OSCAR LIJO",
-      "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
-      "provincia": "Nacional / Federal",
-      "rango": "Corte Suprema",
-      "fuero": "Otros",
-      "categoria": "rechazado",
-      "timeline": {
-        "ingreso": "28/05/2024",
-        "dado_cuenta": {
-          "sesion": "7",
-          "fecha": "12/06/2024"
-        },
-        "audiencia": "12/02/2025",
-        "orden_del_dia": {
-          "numero": "592",
-          "anio": "2024",
-          "fecha_dictamen": null
-        },
-        "sancion": null,
-        "rechazo": "03/04/2025"
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-36/24",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/36.24/PE/AC",
-      "candidato": "MANUEL JOSE GARCIA MANSILLA",
-      "cargo": "JUEZ DE LA CORTE SUPREMA DE JUSTICIA DE LA NACION",
-      "provincia": "Nacional / Federal",
-      "rango": "Corte Suprema",
-      "fuero": "Otros",
-      "categoria": "rechazado",
-      "timeline": {
-        "ingreso": "28/05/2024",
-        "dado_cuenta": {
-          "sesion": "7",
-          "fecha": "12/06/2024"
-        },
-        "audiencia": "13/03/2025",
-        "orden_del_dia": {
-          "numero": "6",
-          "anio": "2025",
-          "fecha_dictamen": null
-        },
-        "sancion": null,
-        "rechazo": "03/04/2025"
       },
       "audiencia_programada": null,
       "audiencia_sin_dictamen": false
@@ -5532,75 +6075,6 @@
         "audiencia": null,
         "orden_del_dia": null,
         "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-199/23",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/199.23/PE/AC",
-      "candidato": "Retiro de mensaje(s) de designación",
-      "cargo": "MENSAJE N° 8/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES QUE SOLICITARAN ACUERDOS PARA DESIGNAR FUNCIONARIOS Y FUNCIONARIAS DEL PODER JUDICIAL DE LA NACIÓN. (REF. P.E. 158, 159, 160 Y 168/23)",
-      "provincia": "Nacional / Federal",
-      "rango": "Sin rango (mensaje administrativo)",
-      "fuero": "Otros",
-      "categoria": "sancionado",
-      "timeline": {
-        "ingreso": "29/12/2023",
-        "dado_cuenta": {
-          "sesion": "11",
-          "fecha": "14/03/2024"
-        },
-        "audiencia": "14/03/2024",
-        "orden_del_dia": null,
-        "sancion": "14/03/2024",
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-186/23",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/186.23/PE/AC",
-      "candidato": "Retiro de mensaje(s) de designación",
-      "cargo": "MENSAJE N° 2/23 QUE SOLICITA EL RETIRO DE LOS MENSAJES POR LOS CUALES SE SOLICITARA ACUERDOS PARA DESIGNAR FUNCIONARIOS DEL PODER JUDICIAL DE LA NACIÓN, DEL MINISTERIO PÚBLICO FISCAL DE LA NACIÓN Y DEL MINISTERIO PÚBLICO DE LA DEFENSA DE LA NACIÓN.",
-      "provincia": "Nacional / Federal",
-      "rango": "Fiscal",
-      "fuero": "Otros",
-      "categoria": "sancionado",
-      "timeline": {
-        "ingreso": "12/12/2023",
-        "dado_cuenta": {
-          "sesion": "9",
-          "fecha": "14/03/2024"
-        },
-        "audiencia": "14/03/2024",
-        "orden_del_dia": null,
-        "sancion": "14/03/2024",
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-185/23",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/185.23/PE/AC",
-      "candidato": "DANIEL EDUARDO RAFECAS",
-      "cargo": "PROCURADOR GENERAL DE LA NACIÓN",
-      "provincia": "Nacional / Federal",
-      "rango": "Procurador/a General",
-      "fuero": "Otros",
-      "categoria": "sancionado",
-      "timeline": {
-        "ingreso": "12/12/2023",
-        "dado_cuenta": {
-          "sesion": "9",
-          "fecha": "14/03/2024"
-        },
-        "audiencia": "14/03/2024",
-        "orden_del_dia": null,
-        "sancion": "14/03/2024",
         "rechazo": null
       },
       "audiencia_programada": null,

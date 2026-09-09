@@ -389,6 +389,31 @@ def _leer_od_xlsx(path):
     return filas
 
 
+def load_firmantes(dir_path):
+    """Carpeta con exportaciones sueltas de 'Firmantes del dictamen' (.xlsx,
+    columnas 'OD. N°'/'EXPTE. N°'/'AUTORES Y CONTENIDO'/'FIRMANTES DEL
+    DICTAMEN'), separadas de las de nuevas_od/ porque traen otro formato.
+    Se van acumulando igual que nuevas_od/. Devuelve expediente -> [firmantes]."""
+    result = {}
+    if not dir_path or not dir_path.exists():
+        return result
+    for path in sorted(dir_path.glob("*.xlsx")):
+        wb = openpyxl.load_workbook(path, data_only=True)
+        ws = wb.active
+        headers = [c.value for c in next(ws.iter_rows(min_row=1, max_row=1))]
+        col = {h: i for i, h in enumerate(headers)}
+        if "EXPTE. N°" not in col or "FIRMANTES DEL DICTAMEN" not in col:
+            continue
+        for row in ws.iter_rows(min_row=2):
+            expediente = row[col["EXPTE. N°"]].value
+            firmantes_raw = row[col["FIRMANTES DEL DICTAMEN"]].value
+            if not expediente or not firmantes_raw:
+                continue
+            firmantes = [f.strip().rstrip(".") for f in str(firmantes_raw).split("–")]
+            result[str(expediente).strip()] = [f for f in firmantes if f]
+    return result
+
+
 def load_nuevas_od(dir_path):
     """Carpeta con exportaciones sueltas de 'Órdenes del Día' nuevas (.csv o
     .xlsx, columnas Número/Sobre los expedientes/Periodo/Fecha Dictamen) que
@@ -408,7 +433,7 @@ def load_nuevas_od(dir_path):
     return result
 
 
-def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
+def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None, firmantes_dir=None):
     wb = openpyxl.load_workbook(xlsx_path, data_only=False)
     ws = wb.active
     headers = [c.value for c in ws[1]]
@@ -418,6 +443,7 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
     audiencias_programadas = load_boletin_programadas(pdf_path)
     dar_cuenta_csv = load_dar_cuenta_csv(csv_path)
     nuevas_od = load_nuevas_od(nuevas_od_dir)
+    firmantes_por_expediente = load_firmantes(firmantes_dir)
 
     # suma las audiencias programadas cargadas a mano (ver AUDIENCIAS_PROGRAMADAS_MANUAL)
     for tanda in AUDIENCIAS_PROGRAMADAS_MANUAL:
@@ -493,9 +519,12 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
             # la planilla madre todavía no tiene esta OD -> se usa la carga manual
             od_nro = nuevas_od[expediente]["numero"]
             od_anio = nuevas_od[expediente]["anio"]
-        # la planilla madre no guarda la fecha de dictamen de la OD; se toma
-        # de las exportaciones sueltas en nuevas_od/ (se van acumulando ahí)
-        od_fecha_dictamen = nuevas_od.get(expediente, {}).get("fecha_dictamen")
+        # la fecha de dictamen de la OD es la de egreso de comisión 1
+        # (FECHA_EGRESO1 — se verificó que coincide con la fecha de dictamen
+        # real); si esa columna todavía no la tiene, se usa como respaldo la
+        # carga manual de nuevas_od/
+        od_fecha_dictamen = extraer_fecha_valida(fecha_egreso1) or nuevas_od.get(expediente, {}).get("fecha_dictamen")
+        od_firmantes = firmantes_por_expediente.get(expediente)
 
         situacion, fecha_situacion = parse_situacion_field(row[col["SANCIONES/SITUACIÓN EXP"]].value)
         fecha_sancion = fecha_situacion if situacion == "AP" else None
@@ -538,7 +567,12 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None):
                 },
                 "audiencia": fecha_audiencia if categoria != "dar_cuenta" else None,
                 "orden_del_dia": (
-                    {"numero": od_nro, "anio": od_anio, "fecha_dictamen": od_fecha_dictamen}
+                    {
+                        "numero": od_nro,
+                        "anio": od_anio,
+                        "fecha_dictamen": od_fecha_dictamen,
+                        "firmantes": od_firmantes,
+                    }
                     if od_nro else None
                 ),
                 "sancion": fecha_sancion,
@@ -586,6 +620,8 @@ def main():
     parser.add_argument("--pdf", default=HERE / "BOLETIN_DE_REUNIONES_DE_COMISIONES_91_2026.pdf")
     parser.add_argument("--nuevas-od-dir", default=HERE / "nuevas_od",
                          help="Carpeta con exportaciones .csv/.xlsx de Órdenes del Día nuevas que todavía no están en --xlsx")
+    parser.add_argument("--firmantes-dir", default=HERE / "firmantes_dictamen",
+                         help="Carpeta con exportaciones .xlsx de firmantes de dictamen (OD. N°/EXPTE. N°/FIRMANTES DEL DICTAMEN)")
     parser.add_argument("--out", default=HERE / "pliegos_data.json")
     args = parser.parse_args()
 
@@ -593,11 +629,12 @@ def main():
         Path(args.xlsx), Path(args.csv), Path(args.md), Path(args.pdf), Path(args.out)
     )
     nuevas_od_dir = Path(args.nuevas_od_dir) if args.nuevas_od_dir else None
+    firmantes_dir = Path(args.firmantes_dir) if args.firmantes_dir else None
     for p in (xlsx_path, csv_path, md_path, pdf_path):
         if not p.exists():
             sys.exit(f"ERROR: no se encuentra el archivo fuente: {p}")
 
-    resultado, log = build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir)
+    resultado, log = build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir, firmantes_dir)
 
     import datetime
     resultado["generado_al"] = datetime.date.today().isoformat()

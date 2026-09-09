@@ -40,6 +40,10 @@ que generar nada a mano ni acordarse de correr un build antes de subir.
   `.xlsx`, columnas `Número`/`Sobre los expedientes`/`Periodo`/`Fecha
   Dictamen`) que todavía no están volcadas en el Excel madre. Se pueden ir
   acumulando ahí, cada corrida las relee todas.
+- `firmantes_dictamen/` — exportaciones sueltas de firmantes de dictamen
+  (`.xlsx`, columnas `OD. N°`/`EXPTE. N°`/`AUTORES Y CONTENIDO`/`FIRMANTES
+  DEL DICTAMEN`). Mismo criterio que `nuevas_od/`: se van acumulando, cada
+  corrida las relee todas.
 
 ## Cómo actualizar los datos
 
@@ -80,8 +84,8 @@ Si el Excel cambia de nombre o ubicación, pasale la ruta explícita:
 python3 data_builder.py --xlsx "/ruta/a/Acuerdos_nuevo.xlsx" --out pliegos_data.json
 ```
 
-También podés apuntar `--csv`, `--md`, `--pdf` y `--nuevas-od-dir` a rutas
-distintas de la misma forma.
+También podés apuntar `--csv`, `--md`, `--pdf`, `--nuevas-od-dir` y
+`--firmantes-dir` a rutas distintas de la misma forma.
 
 ## Notas sobre la lógica de datos
 
@@ -94,6 +98,9 @@ distintas de la misma forma.
   aparece ahí, se usa `FECHA_EGRESO1` / `FECHA INGRESO DICTAMEN` de la
   planilla (son el mismo valor, se verificó por script) — siempre que sea
   una fecha real y no un placeholder tipo `" -"`.
+- La fecha de dictamen de la Orden del Día es esa misma columna
+  `FECHA_EGRESO1` ("egreso de comisión 1"); si esa columna todavía no la
+  tiene, se usa como respaldo la carga manual de `nuevas_od/`.
 - Categorías, en orden de prioridad: `dar_cuenta` → `sancionado` →
   `con_od` → `sin_audiencia`.
 - Los mensajes puramente administrativos (p. ej. "asigna salas y

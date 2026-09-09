@@ -624,6 +624,12 @@ main {
   margin-top: 2px;
 }
 .timeline .step-value.muted { color: var(--ink-soft); font-weight: 400; }
+.timeline .step-firmantes {
+  font-size: 12px;
+  margin-top: 4px;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
 
 .modal-actions {
   margin-top: 20px;
@@ -1106,10 +1112,16 @@ footer {
         odValue += " · (" + t.orden_del_dia.fecha_dictamen.replace(/\/(\d{4})$/, function (m, y) { return "/" + y.slice(-2); }) + ")";
       }
     }
+    var odExtra = "";
+    if (t.orden_del_dia && t.orden_del_dia.firmantes && t.orden_del_dia.firmantes.length) {
+      odExtra = '<div class="step-firmantes">Firmantes del dictamen: ' +
+        escapeHTML(t.orden_del_dia.firmantes.join(", ")) + '</div>';
+    }
     steps.push({
       label: "Orden del Día",
       value: odValue,
-      done: !!t.orden_del_dia
+      done: !!t.orden_del_dia,
+      extra: odExtra
     });
 
     steps.push({
@@ -1128,6 +1140,7 @@ footer {
         '<li class="' + cls + '">' +
           '<div class="step-label">' + s.label + '</div>' +
           '<div class="step-value' + (s.done || s.rejected ? '' : ' muted') + '">' + escapeHTML(s.value) + '</div>' +
+          (s.extra || "") +
         '</li>'
       );
     }).join("");
