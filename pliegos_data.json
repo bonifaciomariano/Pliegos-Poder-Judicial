@@ -1,6 +1,6 @@
 {
-  "generado_al": "2026-09-09",
-  "total": 223,
+  "generado_al": "2026-09-15",
+  "total": 228,
   "provincias": [
     "Buenos Aires",
     "CABA",
@@ -6071,6 +6071,121 @@
         "dado_cuenta": {
           "sesion": "15",
           "fecha": "14/03/2024"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-304/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/304.26/PE/AC",
+      "candidato": "GUIDO YERCOVICH",
+      "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE RAFAELA, PROV. DE SANTA FE",
+      "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": null,
+        "dado_cuenta": {
+          "sesion": null,
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-303/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/303.26/PE/AC",
+      "candidato": "ROSALIA ROMERO",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA VIII",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": null,
+        "dado_cuenta": {
+          "sesion": null,
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-302/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/302.26/PE/AC",
+      "candidato": "EDUARDO ANIBAL AGUAYO",
+      "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 26 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": null,
+        "dado_cuenta": {
+          "sesion": null,
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-301/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/301.26/PE/AC",
+      "candidato": "CAMILO JORGE ALMEIDA PONS",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": null,
+        "dado_cuenta": {
+          "sesion": null,
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-300/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/300.26/PE/AC",
+      "candidato": "ALEJANDRO JORGE NOBILI",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL SALA II",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": null,
+        "dado_cuenta": {
+          "sesion": null,
+          "fecha": null
         },
         "audiencia": null,
         "orden_del_dia": null,
