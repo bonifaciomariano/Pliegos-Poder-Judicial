@@ -585,6 +585,12 @@ def build(xlsx_path, csv_path, md_path, pdf_path, nuevas_od_dir=None, firmantes_
             "audiencia_sin_dictamen": bool(fecha_audiencia and categoria == "sin_audiencia"),
         })
 
+    # orden descendente por año y número, sin depender del orden de la planilla
+    pliegos.sort(
+        key=lambda p: (int(p["expediente"][-2:]), int(p["expediente"][3:].split("/")[0])),
+        reverse=True,
+    )
+
     # Validación cruzada con el ayuda-memoria de "dar cuenta"
     expedientes_generados = {p["expediente"] for p in pliegos}
     dar_cuenta_generados = {p["expediente"] for p in pliegos if p["categoria"] == "dar_cuenta"}

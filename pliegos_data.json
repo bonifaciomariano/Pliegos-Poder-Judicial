@@ -27,6 +27,236 @@
   ],
   "pliegos": [
     {
+      "expediente": "PE-312/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/312.26/PE/AC",
+      "candidato": "PABLO GARCIARENA",
+      "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL MENDOZA, PROVINCIA DE MENDOZA",
+      "provincia": "Mendoza",
+      "rango": "Fiscal",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-311/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/311.26/PE/AC",
+      "candidato": "LAURA BELLOQUI",
+      "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 22 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-310/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/310.26/PE/AC",
+      "candidato": "JUAN CARLOS VALLEJOS",
+      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE CORRIENTES, PROVINCIA DE CORRIENTES",
+      "provincia": "Corrientes",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-309/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/309.26/PE/AC",
+      "candidato": "ANALIA ISABEL CASCONE",
+      "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y CAMARA NACIONAL DE APELACIONES EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 4",
+      "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Laboral",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-308/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/308.26/PE/AC",
+      "candidato": "GONZALO LUIS GASSULL",
+      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN JUAN, PROVINCIA DE SAN JUAN",
+      "provincia": "San Juan",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-304/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/304.26/PE/AC",
+      "candidato": "GUIDO YERCOVICH",
+      "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE RAFAELA, PROV. DE SANTA FE",
+      "provincia": "Santa Fe",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Penal",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-303/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/303.26/PE/AC",
+      "candidato": "ROSALIA ROMERO",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA VIII",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Laboral",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-302/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/302.26/PE/AC",
+      "candidato": "EDUARDO ANIBAL AGUAYO",
+      "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 26 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-301/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/301.26/PE/AC",
+      "candidato": "CAMILO JORGE ALMEIDA PONS",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-300/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/300.26/PE/AC",
+      "candidato": "ALEJANDRO JORGE NOBILI",
+      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL SALA II",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Comercial",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
       "expediente": "PE-293/26",
       "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/293.26/PE/AC",
       "candidato": "Conjueces (designación plural)",
@@ -6071,236 +6301,6 @@
         "dado_cuenta": {
           "sesion": "15",
           "fecha": "14/03/2024"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-304/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/304.26/PE/AC",
-      "candidato": "GUIDO YERCOVICH",
-      "cargo": "JUEZ PENAL FEDERAL DEL JUZGADO FEDERAL DE GARANTIAS CON ASIENTO EN LA CDAD. DE RAFAELA, PROV. DE SANTA FE",
-      "provincia": "Santa Fe",
-      "rango": "Juez/a (primera instancia)",
-      "fuero": "Penal",
-      "categoria": "sin_audiencia",
-      "timeline": {
-        "ingreso": "11/09/2026",
-        "dado_cuenta": {
-          "sesion": "30",
-          "fecha": "17/09/2026"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-303/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/303.26/PE/AC",
-      "candidato": "ROSALIA ROMERO",
-      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES DEL TRABAJO DE LA CAPITAL FEDERAL, SALA VIII",
-      "provincia": "CABA",
-      "rango": "Camarista / Vocal de Cámara",
-      "fuero": "Laboral",
-      "categoria": "sin_audiencia",
-      "timeline": {
-        "ingreso": "11/09/2026",
-        "dado_cuenta": {
-          "sesion": "30",
-          "fecha": "17/09/2026"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-302/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/302.26/PE/AC",
-      "candidato": "EDUARDO ANIBAL AGUAYO",
-      "cargo": "JUEZ DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 26 DE LA CAPITAL FEDERAL",
-      "provincia": "CABA",
-      "rango": "Camarista / Vocal de Cámara",
-      "fuero": "Penal",
-      "categoria": "sin_audiencia",
-      "timeline": {
-        "ingreso": "11/09/2026",
-        "dado_cuenta": {
-          "sesion": "30",
-          "fecha": "17/09/2026"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-301/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/301.26/PE/AC",
-      "candidato": "CAMILO JORGE ALMEIDA PONS",
-      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL, SALA III",
-      "provincia": "CABA",
-      "rango": "Camarista / Vocal de Cámara",
-      "fuero": "Comercial",
-      "categoria": "sin_audiencia",
-      "timeline": {
-        "ingreso": "11/09/2026",
-        "dado_cuenta": {
-          "sesion": "30",
-          "fecha": "17/09/2026"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-300/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/300.26/PE/AC",
-      "candidato": "ALEJANDRO JORGE NOBILI",
-      "cargo": "VOCAL DE LA CAMARA NACIONAL DE APELACIONES EN LO CIVIL Y COMERCIAL FEDERAL DE LA CAPITAL FEDERAL SALA II",
-      "provincia": "CABA",
-      "rango": "Camarista / Vocal de Cámara",
-      "fuero": "Comercial",
-      "categoria": "sin_audiencia",
-      "timeline": {
-        "ingreso": "11/09/2026",
-        "dado_cuenta": {
-          "sesion": "30",
-          "fecha": "17/09/2026"
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-312/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/312.26/PE/AC",
-      "candidato": "PABLO GARCIARENA",
-      "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL MENDOZA, PROVINCIA DE MENDOZA",
-      "provincia": "Mendoza",
-      "rango": "Fiscal",
-      "fuero": "Otros",
-      "categoria": "dar_cuenta",
-      "timeline": {
-        "ingreso": "28/09/2026",
-        "dado_cuenta": {
-          "sesion": "31",
-          "fecha": null
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-311/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/311.26/PE/AC",
-      "candidato": "LAURA BELLOQUI",
-      "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 22 DE LA CAPITAL FEDERAL",
-      "provincia": "CABA",
-      "rango": "Camarista / Vocal de Cámara",
-      "fuero": "Penal",
-      "categoria": "dar_cuenta",
-      "timeline": {
-        "ingreso": "28/09/2026",
-        "dado_cuenta": {
-          "sesion": "31",
-          "fecha": null
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-310/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/310.26/PE/AC",
-      "candidato": "JUAN CARLOS VALLEJOS",
-      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE CORRIENTES, PROVINCIA DE CORRIENTES",
-      "provincia": "Corrientes",
-      "rango": "Juez/a (primera instancia)",
-      "fuero": "Otros",
-      "categoria": "dar_cuenta",
-      "timeline": {
-        "ingreso": "28/09/2026",
-        "dado_cuenta": {
-          "sesion": "31",
-          "fecha": null
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-309/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/309.26/PE/AC",
-      "candidato": "ANALIA ISABEL CASCONE",
-      "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y CAMARA NACIONAL DE APELACIONES EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 4",
-      "provincia": "CABA",
-      "rango": "Defensor/a",
-      "fuero": "Laboral",
-      "categoria": "dar_cuenta",
-      "timeline": {
-        "ingreso": "28/09/2026",
-        "dado_cuenta": {
-          "sesion": "31",
-          "fecha": null
-        },
-        "audiencia": null,
-        "orden_del_dia": null,
-        "sancion": null,
-        "rechazo": null
-      },
-      "audiencia_programada": null,
-      "audiencia_sin_dictamen": false
-    },
-    {
-      "expediente": "PE-308/26",
-      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/308.26/PE/AC",
-      "candidato": "GONZALO LUIS GASSULL",
-      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN JUAN, PROVINCIA DE SAN JUAN",
-      "provincia": "San Juan",
-      "rango": "Juez/a (primera instancia)",
-      "fuero": "Otros",
-      "categoria": "dar_cuenta",
-      "timeline": {
-        "ingreso": "28/09/2026",
-        "dado_cuenta": {
-          "sesion": "31",
-          "fecha": null
         },
         "audiencia": null,
         "orden_del_dia": null,
