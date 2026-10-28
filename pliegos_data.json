@@ -1,6 +1,6 @@
 {
-  "generado_al": "2026-09-15",
-  "total": 228,
+  "generado_al": "2026-10-28",
+  "total": 233,
   "provincias": [
     "Buenos Aires",
     "CABA",
@@ -34,12 +34,12 @@
       "provincia": "CABA",
       "rango": "Conjueces",
       "fuero": "Laboral",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -57,12 +57,12 @@
       "provincia": "La Rioja",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -80,12 +80,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -103,12 +103,12 @@
       "provincia": "Neuquén",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -126,12 +126,12 @@
       "provincia": "San Luis",
       "rango": "Fiscal",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -149,12 +149,12 @@
       "provincia": "Santa Fe",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -172,12 +172,12 @@
       "provincia": "Chaco",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -195,12 +195,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Laboral",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -218,12 +218,12 @@
       "provincia": "Córdoba",
       "rango": "Defensor/a",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -241,12 +241,12 @@
       "provincia": "Santa Fe",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -264,12 +264,12 @@
       "provincia": "CABA",
       "rango": "Defensor/a",
       "fuero": "Menores",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -287,12 +287,12 @@
       "provincia": "Buenos Aires",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Otros",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "28/08/2026",
         "dado_cuenta": {
-          "sesion": "29",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -310,12 +310,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "27/08/2026",
         "dado_cuenta": {
-          "sesion": "28",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -333,12 +333,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "27/08/2026",
         "dado_cuenta": {
-          "sesion": "28",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -356,12 +356,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
         "ingreso": "27/08/2026",
         "dado_cuenta": {
-          "sesion": "28",
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -6088,12 +6088,12 @@
       "provincia": "Santa Fe",
       "rango": "Juez/a (primera instancia)",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
-        "ingreso": null,
+        "ingreso": "11/09/2026",
         "dado_cuenta": {
-          "sesion": null,
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -6111,12 +6111,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Laboral",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
-        "ingreso": null,
+        "ingreso": "11/09/2026",
         "dado_cuenta": {
-          "sesion": null,
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -6134,12 +6134,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Penal",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
-        "ingreso": null,
+        "ingreso": "11/09/2026",
         "dado_cuenta": {
-          "sesion": null,
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -6157,12 +6157,12 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
-      "categoria": "dar_cuenta",
+      "categoria": "sin_audiencia",
       "timeline": {
-        "ingreso": null,
+        "ingreso": "11/09/2026",
         "dado_cuenta": {
-          "sesion": null,
-          "fecha": null
+          "sesion": "30",
+          "fecha": "17/09/2026"
         },
         "audiencia": null,
         "orden_del_dia": null,
@@ -6180,11 +6180,126 @@
       "provincia": "CABA",
       "rango": "Camarista / Vocal de Cámara",
       "fuero": "Comercial",
+      "categoria": "sin_audiencia",
+      "timeline": {
+        "ingreso": "11/09/2026",
+        "dado_cuenta": {
+          "sesion": "30",
+          "fecha": "17/09/2026"
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-312/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/312.26/PE/AC",
+      "candidato": "PABLO GARCIARENA",
+      "cargo": "FISCAL FEDERAL DE LA UNIDAD FISCAL MENDOZA, PROVINCIA DE MENDOZA",
+      "provincia": "Mendoza",
+      "rango": "Fiscal",
+      "fuero": "Otros",
       "categoria": "dar_cuenta",
       "timeline": {
-        "ingreso": null,
+        "ingreso": "28/09/2026",
         "dado_cuenta": {
-          "sesion": null,
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-311/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/311.26/PE/AC",
+      "candidato": "LAURA BELLOQUI",
+      "cargo": "JUEZA DE CAMARA DEL TRIBUNAL ORAL EN LO CRIMINAL Y CORRECCIONAL N° 22 DE LA CAPITAL FEDERAL",
+      "provincia": "CABA",
+      "rango": "Camarista / Vocal de Cámara",
+      "fuero": "Penal",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-310/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/310.26/PE/AC",
+      "candidato": "JUAN CARLOS VALLEJOS",
+      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE CORRIENTES, PROVINCIA DE CORRIENTES",
+      "provincia": "Corrientes",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-309/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/309.26/PE/AC",
+      "candidato": "ANALIA ISABEL CASCONE",
+      "cargo": "DEFENSORA PUBLICA OFICIAL ANTE LOS JUZGADOS Y CAMARA NACIONAL DE APELACIONES EN LO CIVIL, COMERCIAL Y DEL TRABAJO DE LA CAPITAL FEDERAL, DEFENSORIA N° 4",
+      "provincia": "CABA",
+      "rango": "Defensor/a",
+      "fuero": "Laboral",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
+          "fecha": null
+        },
+        "audiencia": null,
+        "orden_del_dia": null,
+        "sancion": null,
+        "rechazo": null
+      },
+      "audiencia_programada": null,
+      "audiencia_sin_dictamen": false
+    },
+    {
+      "expediente": "PE-308/26",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/308.26/PE/AC",
+      "candidato": "GONZALO LUIS GASSULL",
+      "cargo": "JUEZ DEL JUZGADO FEDERAL DE PRIMERA INSTANCIA N° 1 DE SAN JUAN, PROVINCIA DE SAN JUAN",
+      "provincia": "San Juan",
+      "rango": "Juez/a (primera instancia)",
+      "fuero": "Otros",
+      "categoria": "dar_cuenta",
+      "timeline": {
+        "ingreso": "28/09/2026",
+        "dado_cuenta": {
+          "sesion": "31",
           "fecha": null
         },
         "audiencia": null,
